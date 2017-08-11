@@ -26,6 +26,11 @@
           </contentNaming>
         </Source>
       </AppendXmlFragment>
+      <AppendXmlFragment file="web.config" xpath="/configuration/sensenet/identityManagement">
+        <Source>
+          <add key="DefaultDomain" value="Public"/>
+        </Source>
+      </AppendXmlFragment>
 
       <StartRepository startWorkflowEngine="false" />
       <Import target="/Root" LogLevel="Verbose" source="import" />
