@@ -21,6 +21,7 @@ namespace SenseNet.Demo
                 var user = Content.CreateNew("User", content.ContentHandler, email);
                 user["Email"] = email;
                 user["Enabled"] = true;
+                user["Password"] = password;
                 user.Save();
 
                 return user;
