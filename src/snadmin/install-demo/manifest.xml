@@ -11,9 +11,14 @@
   <Steps>
     <Phase>
       <Copy targetDirectory='.' source='bin' />
+      
+      <!-- Enable this in the first phase so that it takes effect in the second: demo user profiles should be created during import. -->
+      <EditXmlNodes file="Tools\SnAdminRuntime.exe.config" xpath="/configuration/sensenet/identityManagement/add[@key='UserProfilesEnabled']/@value">
+        <Source>true</Source>
+      </EditXmlNodes>
     </Phase>
+    
     <Phase>
-
       <AppendXmlFragment file="web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']">
         <Source>
           <section name="contentNaming" type="System.Configuration.NameValueSectionHandler" />
@@ -30,9 +35,22 @@
         <Source>
           <add key="DefaultDomain" value="Public"/>
         </Source>
-      </AppendXmlFragment>
+      </AppendXmlFragment>     
 
       <StartRepository startWorkflowEngine="false" />
+
+      <EditJson Path="/Root/System/Settings/UserProfile.settings">
+        {
+          User: {
+            ProfileType: "DemoProfile",
+            ProfilesTarget: "/Root"
+          }
+        }
+      </EditJson>
+
+      <!-- This is added because we want to use smartfolders in user profile workspace doclibs. -->
+      <EditAllowedChildTypes contentType="DocumentLibrary" add="SmartFolder" />
+      
       <Import target="/Root" LogLevel="Verbose" source="import" />
     </Phase>
   </Steps>

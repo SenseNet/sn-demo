@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>SmartFolder</ContentType>
+  <ContentName>Shared</ContentName>
+  <Fields>
+    <Query>+TypeIs:File +InTree:"/Root/Profiles"</Query>
+  </Fields>
+</ContentMetaData>
