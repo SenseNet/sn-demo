@@ -3,6 +3,7 @@
   <ContentType>SmartFolder</ContentType>
   <ContentName>Shared</ContentName>
   <Fields>
+    <DisplayName>Shared items</DisplayName>
     <Query>+TypeIs:File +InTree:"/Root/Profiles"</Query>
   </Fields>
 </ContentMetaData>
