@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>GenericODataApplication</ContentType>
+  <ContentName>StarContent</ContentName>
+  <Fields>
+    <ActionTypeName><![CDATA[GenericODataOperation]]></ActionTypeName>
+    <Icon><![CDATA[Application]]></Icon>
+    <Scenario><![CDATA[DMSListItem]]></Scenario>
+  </Fields>
+</ContentMetaData>
