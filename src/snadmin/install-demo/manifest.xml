@@ -59,6 +59,10 @@
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/MoveTo"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/CopyTo"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
+
+      <AddMembers group="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
+      /Root/IMS/Public/alba
+      </AddMembers>
     </Phase>
   </Steps>
 </Package>
