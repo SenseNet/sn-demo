@@ -3,8 +3,20 @@
   <ContentType>GenericODataApplication</ContentType>
   <ContentName>StarContent</ContentName>
   <Fields>
+  <ClassName><![CDATA[SenseNet.Demo.Actions]]></ClassName>
+    <MethodName><![CDATA[RegisterUser]]></MethodName>
+    <Parameters><![CDATA[      
+      string email,
+	  string password,
+    ]]></Parameters>
     <ActionTypeName><![CDATA[GenericODataOperation]]></ActionTypeName>
     <Icon><![CDATA[Application]]></Icon>
     <Scenario><![CDATA[DMSListItem]]></Scenario>
   </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
 </ContentMetaData>
