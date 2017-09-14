@@ -13,4 +13,10 @@
     <Icon><![CDATA[Application]]></Icon>
     <Scenario><![CDATA[DMSListItem]]></Scenario>
   </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
 </ContentMetaData>
