@@ -54,6 +54,7 @@
       <Import target="/Root" LogLevel="Verbose" source="import" />
 
       <!-- Add DMS related scenarios into the Scenario field. -->
+      <SetField name="Scenario" content="/Root/(apps)/User/Profile"><![CDATA[UserActions,DMSUserActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Logout"><![CDATA[UserActions,DMSUserActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Rename"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/MoveTo"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
