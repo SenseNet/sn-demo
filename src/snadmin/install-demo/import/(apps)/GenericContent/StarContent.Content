@@ -11,7 +11,7 @@
     ]]></Parameters>
     <ActionTypeName><![CDATA[GenericODataOperation]]></ActionTypeName>
     <Icon><![CDATA[Application]]></Icon>
-    <Scenario><![CDATA[DMSListItem]]></Scenario>
+    <Scenario><![CDATA[]]></Scenario>
   </Fields>
   <Permissions>
     <Clear />
