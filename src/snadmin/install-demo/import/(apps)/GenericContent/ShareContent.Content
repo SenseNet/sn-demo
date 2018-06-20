@@ -14,6 +14,7 @@
     <Scenario><![CDATA[DMSListItem,DMSBatchActions]]></Scenario>
     <Index>1</Index>
     <Icon>share</Icon>
+    <DisplayName><![CDATA[$Action,ShareContent]]></DisplayName>
   </Fields>
   <Permissions>
     <Clear />
