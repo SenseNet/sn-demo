@@ -11,7 +11,9 @@
     ]]></Parameters>
     <ActionTypeName><![CDATA[GenericODataOperation]]></ActionTypeName>
     <Icon><![CDATA[Application]]></Icon>
-    <Scenario><![CDATA[DMSListItem]]></Scenario>
+    <Scenario><![CDATA[DMSListItem,DMSBatchActions]]></Scenario>
+    <Index>1</Index>
+    <Icon>share</Icon>
   </Fields>
   <Permissions>
     <Clear />
