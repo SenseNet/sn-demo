@@ -60,12 +60,19 @@
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/MoveTo"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/CopyTo"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/SetPermissions"><![CDATA[WorkspaceActions;ListItem;ExploreActions;DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/DeleteBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/CopyBatch"><![CDATA[DMSBatchActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/MoveBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/Preview"><![CDATA[ListItem;DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/Browse"><![CDATA[ListItem;ExploreToolbar;DocumentDetails;DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/Edit"><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;DocumentDetails;DMSListItem]]></SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/DeleteBatch">2</SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/CopyBatch">3</SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/MoveBatch">4</SetField>
+      <SetField name="Index" content="/Root/(apps)/GenericContent/ShareContent">3900</SetField>
+      <SetField name="Index" content="/Root/(apps)/File/Browse">20</SetField>
+      <SetField name="Index" content="/Root/(apps)/File/Edit">3950</SetField>
 
       <AddMembers group="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
       /Root/IMS/Public/alba
