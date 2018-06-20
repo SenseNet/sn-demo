@@ -60,6 +60,7 @@
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/MoveTo"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/CopyTo"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Versions"><![CDATA[ListItem;ExploreActions;DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/SetPermissions"><![CDATA[WorkspaceActions;ListItem;ExploreActions;DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/DeleteBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/CopyBatch"><![CDATA[DMSBatchActions]]></SetField>
