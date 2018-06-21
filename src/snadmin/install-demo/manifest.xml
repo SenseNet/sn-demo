@@ -74,6 +74,8 @@
       <SetField name="Index" content="/Root/(apps)/GenericContent/ShareContent">3900</SetField>
       <SetField name="Index" content="/Root/(apps)/File/Browse">20</SetField>
       <SetField name="Index" content="/Root/(apps)/File/Edit">3950</SetField>
+      <SetField name="Icon" content="/Root/(apps)/File/Browse">download</SetField>
+      <SetField name="Icon" content="/Root/(apps)/File/Preview">preview</SetField>
 
       <AddMembers group="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
       /Root/IMS/Public/alba
