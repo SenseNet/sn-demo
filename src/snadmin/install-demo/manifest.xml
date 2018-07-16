@@ -68,14 +68,21 @@
       <SetField name="Scenario" content="/Root/(apps)/File/Preview"><![CDATA[ListItem;DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/File/Browse"><![CDATA[ListItem;ExploreToolbar;DocumentDetails;DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/File/Edit"><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;DocumentDetails;DMSListItem]]></SetField>
+      <!-- Set DMS related Index values in the Index field. -->
       <SetField name="Index" content="/Root/(apps)/Folder/DeleteBatch">2</SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/CopyBatch">3</SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/MoveBatch">4</SetField>
       <SetField name="Index" content="/Root/(apps)/GenericContent/ShareContent">3900</SetField>
       <SetField name="Index" content="/Root/(apps)/File/Browse">20</SetField>
       <SetField name="Index" content="/Root/(apps)/File/Edit">3950</SetField>
+      <!-- Set DMS related Icon pathes in the Icon field. -->
       <SetField name="Icon" content="/Root/(apps)/File/Browse">download</SetField>
       <SetField name="Icon" content="/Root/(apps)/File/Preview">preview</SetField>
+      <!-- Change DMS related DisplayNames in ContentTemplates. -->
+      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty document.docx">document</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty presentation.pptx">slide</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty text document.docx">text</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty workbook.docx">sheet</SetField>
 
       <AddMembers group="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
       /Root/IMS/Public/alba
