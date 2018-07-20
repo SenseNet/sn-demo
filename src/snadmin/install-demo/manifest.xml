@@ -83,16 +83,6 @@
       <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty presentation.pptx">slide</SetField>
       <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty text document.txt">text</SetField>
       <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty workbook.xlsx">sheet</SetField>
-
-      <!-- Change visibility of Fields of the type Folder on New and Edit views. -->
-      <EditFieldConfiguration contentType="Folder" fieldName="Name" propertyName="VisibleNew">Hide</EditFieldConfiguration>
-      <EditFieldConfiguration contentType="Folder" fieldName="Version" propertyName="VisibleNew">Hide</EditFieldConfiguration>
-      <EditFieldConfiguration contentType="Folder" fieldName="Description" propertyName="VisibleNew">Hide</EditFieldConfiguration>
-      <EditFieldConfiguration contentType="Folder" fieldName="Index" propertyName="VisibleNew">Hide</EditFieldConfiguration>
-      <EditFieldConfiguration contentType="Folder" fieldName="Name" propertyName="VisibleEdit">Hide</EditFieldConfiguration>
-      <EditFieldConfiguration contentType="Folder" fieldName="Version" propertyName="VisibleEdit">Hide</EditFieldConfiguration>
-      <EditFieldConfiguration contentType="Folder" fieldName="Description" propertyName="VisibleEdit">Hide</EditFieldConfiguration>
-      <EditFieldConfiguration contentType="Folder" fieldName="Index" propertyName="VisibleEdit">Hide</EditFieldConfiguration>
       
       <AddMembers group="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
       /Root/IMS/Public/alba
