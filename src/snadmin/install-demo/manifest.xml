@@ -81,8 +81,8 @@
       <!-- Change DMS related DisplayNames in ContentTemplates. -->
       <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty document.docx">document</SetField>
       <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty presentation.pptx">slide</SetField>
-      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty text document.docx">text</SetField>
-      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty workbook.docx">sheet</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty text document.txt">text</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty workbook.xlsx">sheet</SetField>
 
       <!-- Change visibility of Fields of the type Folder on New and Edit views. -->
       <EditFieldConfiguration contentType="Folder" fieldName="Name" propertyName="VisibleNew">Hide</EditFieldConfiguration>
