@@ -68,6 +68,12 @@
       <SetField name="Scenario" content="/Root/(apps)/File/Preview"><![CDATA[ListItem;DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/File/Browse"><![CDATA[ListItem;ExploreToolbar;DocumentDetails;DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/File/Edit"><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;DocumentDetails;DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Approve"><![CDATA[ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckIn"><![CDATA[ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckOut"><![CDATA[ListItem;ExploreActions;DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/ForceUndoCheckOut"><![CDATA[ListItem;ExploreActions;DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Publish"><![CDATA[ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/UndoCheckOut"><![CDATA[ListItem;ExploreActions;DMSListItem]]></SetField>
       <!-- Set DMS related Index values in the Index field. -->
       <SetField name="Index" content="/Root/(apps)/Folder/DeleteBatch">2</SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/CopyBatch">3</SetField>
