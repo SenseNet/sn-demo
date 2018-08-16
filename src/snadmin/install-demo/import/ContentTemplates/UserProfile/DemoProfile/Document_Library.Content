@@ -5,7 +5,7 @@
   <Fields>
     <DisplayName><![CDATA[$ContentTemplates,DocumentLibrary]]></DisplayName>
     <InheritableVersioningMode>3</InheritableVersioningMode>
-    <ApprovingMode>2</ApprovingMode>
+    <InheritableApprovingMode>2</InheritableApprovingMode>
   </Fields>
   <Permissions>
     <Clear />
