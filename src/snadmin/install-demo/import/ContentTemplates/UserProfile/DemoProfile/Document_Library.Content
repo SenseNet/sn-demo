@@ -4,6 +4,8 @@
   <ContentName>Document_Library</ContentName>
   <Fields>
     <DisplayName><![CDATA[$ContentTemplates,DocumentLibrary]]></DisplayName>
+    <InheritableVersioningMode>3</InheritableVersioningMode>
+    <InheritableApprovingMode>2</InheritableApprovingMode>
   </Fields>
   <Permissions>
     <Clear />
