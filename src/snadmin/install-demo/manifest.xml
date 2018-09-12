@@ -84,6 +84,7 @@
       <!-- Set DMS related Icon pathes in the Icon field. -->
       <SetField name="Icon" content="/Root/(apps)/File/Browse">download</SetField>
       <SetField name="Icon" content="/Root/(apps)/File/Preview">preview</SetField>
+      <SetField name="Icon" content="/Root/(apps)/User/Edit">settings</SetField>
       <!-- Change DMS related DisplayNames in ContentTemplates. -->
       <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty document.docx">document</SetField>
       <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty presentation.pptx">slide</SetField>
