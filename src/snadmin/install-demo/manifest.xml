@@ -95,6 +95,9 @@
       <AddMembers group="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
       /Root/IMS/Public/alba
       </AddMembers>
+      <AddMembers group="/Root/IMS/BuiltIn/Portal/Administrators">
+      /Root/IMS/Public/DMSAdmins
+      </AddMembers>
     </Phase>
   </Steps>
 </Package>
