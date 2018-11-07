@@ -20,6 +20,7 @@
     <Gender>Female</Gender>
     <MaritalStatus>Married</MaritalStatus>
     <BirthDate>1984-05-10T00:00:00</BirthDate>
+    <Phone>+36205678912</Phone>
   </Fields>
   <Permissions>
     <Clear />
