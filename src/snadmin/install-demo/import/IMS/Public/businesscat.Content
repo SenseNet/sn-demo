@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>businesscat</ContentName>
+  <Fields>
+    <DisplayName>Business Cat</DisplayName>
+    <JobTitle>Boss</JobTitle>
+    <Enabled>true</Enabled>
+    <Email>businesscat@sensenet.com</Email>
+	<LoginName>businesscat@sensenet.com</LoginName>
+    <FullName>Business Cat</FullName>
+	<ImageRef>
+      <Path>/Root/Sites/Default_Site/demoavatars/businesscat.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>businesscat</Text>
+    </Password>
+    <Languages>Meow</Languages>
+    <TrashDisabled>false</TrashDisabled>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/businesscat">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>
