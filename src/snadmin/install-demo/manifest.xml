@@ -74,6 +74,7 @@
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/ForceUndoCheckOut"><![CDATA[ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Publish"><![CDATA[ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/UndoCheckOut"><![CDATA[ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/ShareContent"><![CDATA[DMSListItem]]></SetField>
       <!-- Set DMS related Index values in the Index field. -->
       <SetField name="Index" content="/Root/(apps)/Folder/DeleteBatch">2</SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/CopyBatch">3</SetField>
@@ -93,6 +94,9 @@
       
       <AddMembers group="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
       /Root/IMS/Public/alba
+      </AddMembers>
+      <AddMembers group="/Root/IMS/BuiltIn/Portal/Administrators">
+      /Root/IMS/Public/DMSAdmins
       </AddMembers>
     </Phase>
   </Steps>
