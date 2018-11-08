@@ -10,7 +10,7 @@
 	<LoginName>businesscat@sensenet.com</LoginName>
     <FullName>Business Cat</FullName>
 	<ImageRef>
-      <Path>/Root/Sites/Default_Site/demoavatars/businesscat.jpg</Path>
+      <Path>/Root/Sites/Default_Site/demoavatars/businesscat.jpeg</Path>
     </ImageRef>
     <Password>
       <Text>businesscat</Text>
