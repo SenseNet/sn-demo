@@ -47,10 +47,6 @@
           }
         }
       </EditJson>
-
-      <!-- This is added because we want to use smartfolders in user profile workspace doclibs. -->
-      <EditAllowedChildTypes contentType="DocumentLibrary" add="SmartFolder" />
-      <EditAllowedChildTypes contentType="DocumentLibrary" add="Image" />
       
       <Import target="/Root" LogLevel="Verbose" source="import" />
 
@@ -99,6 +95,12 @@
       <AddMembers group="/Root/IMS/BuiltIn/Portal/Administrators">
       /Root/IMS/Public/DMSAdmins
       </AddMembers>
+
+      <SetPermissions
+        path="/Root/System/Schema/ContentTypes/GenericContent/File/DemoFile"
+        identity="/Root/IMS/BuiltIn/Portal/Everyone"
+        allow="See"
+        />
     </Phase>
   </Steps>
 </Package>
