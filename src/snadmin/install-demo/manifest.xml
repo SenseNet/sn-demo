@@ -84,10 +84,10 @@
       <SetField name="Icon" content="/Root/(apps)/File/Preview">preview</SetField>
       <SetField name="Icon" content="/Root/(apps)/User/Edit">settings</SetField>
       <!-- Change DMS related DisplayNames in ContentTemplates. -->
-      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty document.docx">document</SetField>
-      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty presentation.pptx">slide</SetField>
-      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty text document.txt">text</SetField>
-      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty workbook.xlsx">sheet</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty document.docx">document</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty presentation.pptx">slide</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty text document.txt">text</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty workbook.xlsx">sheet</SetField>
       
       <AddMembers group="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
       /Root/IMS/Public/alba
