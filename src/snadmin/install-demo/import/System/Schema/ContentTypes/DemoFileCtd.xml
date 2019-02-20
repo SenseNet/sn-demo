@@ -1,0 +1,17 @@
+<ContentType name="DemoFile" parentType="File" handler="SenseNet.ContentRepository.File" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-File,DisplayName</DisplayName>
+  <Description>Demo File type</Description>
+  <Icon>Document</Icon>
+  <Preview>true</Preview>
+  <Fields>
+    <Field name="RelatedDocs" type="Reference">
+      <DisplayName>$Ctd-Contract,RelatedDocs</DisplayName>
+      <Configuration>
+        <AllowMultiple>true</AllowMultiple>
+        <SelectionRoot>
+          <Path>/Root/Sites/Default_Site/workspaces/Sales</Path>
+        </SelectionRoot>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>
