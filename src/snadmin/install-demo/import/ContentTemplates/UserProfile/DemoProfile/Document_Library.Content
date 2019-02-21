@@ -2,11 +2,11 @@
 <ContentMetaData>
   <ContentType>DocumentLibrary</ContentType>
   <ContentName>Document_Library</ContentName>
-  <AllowedChildTypes>DemoFile,Image,Folder,SystemFolder</AllowedChildTypes>
   <Fields>
     <DisplayName><![CDATA[$ContentTemplates,DocumentLibrary]]></DisplayName>
     <InheritableVersioningMode>3</InheritableVersioningMode>
     <InheritableApprovingMode>2</InheritableApprovingMode>
+    <AllowedChildTypes>DemoFile,Image,Folder,SystemFolder</AllowedChildTypes>
   </Fields>
   <Permissions>
     <Clear />
