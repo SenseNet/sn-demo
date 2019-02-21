@@ -47,10 +47,6 @@
           }
         }
       </EditJson>
-
-      <!-- This is added because we want to use smartfolders in user profile workspace doclibs. -->
-      <EditAllowedChildTypes contentType="DocumentLibrary" add="SmartFolder" />
-      <EditAllowedChildTypes contentType="DocumentLibrary" add="Image" />
       
       <Import target="/Root" LogLevel="Verbose" source="import" />
 
@@ -88,10 +84,10 @@
       <SetField name="Icon" content="/Root/(apps)/File/Preview">preview</SetField>
       <SetField name="Icon" content="/Root/(apps)/User/Edit">settings</SetField>
       <!-- Change DMS related DisplayNames in ContentTemplates. -->
-      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty document.docx">document</SetField>
-      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty presentation.pptx">slide</SetField>
-      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty text document.txt">text</SetField>
-      <SetField name="DisplayName" content="/Root/ContentTemplates/File/Empty workbook.xlsx">sheet</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty document.docx">document</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty presentation.pptx">slide</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty text document.txt">text</SetField>
+      <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty workbook.xlsx">sheet</SetField>
       
       <AddMembers group="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
       /Root/IMS/Public/alba
@@ -99,6 +95,12 @@
       <AddMembers group="/Root/IMS/BuiltIn/Portal/Administrators">
       /Root/IMS/Public/DMSAdmins
       </AddMembers>
+
+      <SetPermissions
+        path="/Root/System/Schema/ContentTypes/GenericContent/File/DemoFile"
+        identity="/Root/IMS/BuiltIn/Portal/Everyone"
+        allow="See"
+        />
     </Phase>
   </Steps>
 </Package>
