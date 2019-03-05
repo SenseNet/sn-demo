@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>DemoFile</ContentType>
+  <ContentName>Empty workbook.xlsx</ContentName>
+  <Fields>
+    <Binary attachment="Empty workbook.xlsx" />
+    <DisplayName><![CDATA[Empty workbook.xlsx]]></DisplayName>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>
