@@ -53,12 +53,13 @@
       <!-- Add DMS related scenarios into the Scenario field. -->
       <SetField name="Scenario" content="/Root/(apps)/User/Profile"><![CDATA[UserActions,DMSUserActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Logout"><![CDATA[UserActions,DMSUserActions]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Rename"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Rename"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem,DMSGroupListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/MoveTo"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/CopyTo"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Versions"><![CDATA[ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/SetPermissions"><![CDATA[WorkspaceActions;ListItem;ExploreActions;DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Edit"><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;SimpleListItem;SimpleApprovableListItem,DMSGroupListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/DeleteBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/CopyBatch"><![CDATA[DMSBatchActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/MoveBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
