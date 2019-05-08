@@ -59,7 +59,7 @@
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Versions"><![CDATA[ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/SetPermissions"><![CDATA[WorkspaceActions;ListItem;ExploreActions;DMSListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Edit"><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;SimpleListItem;SimpleApprovableListItem,DMSGroupListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Edit"><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;SimpleListItem;SimpleApprovableListItem,DMSListItem;DMSGroupListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/DeleteBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/CopyBatch"><![CDATA[DMSBatchActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/MoveBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
@@ -77,6 +77,7 @@
       <SetField name="Index" content="/Root/(apps)/Folder/DeleteBatch">2</SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/CopyBatch">3</SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/MoveBatch">4</SetField>
+      <SetField name="Index" content="/Root/(apps)/GenericContent/Edit">3950</SetField>
       <SetField name="Index" content="/Root/(apps)/GenericContent/ShareContent">3900</SetField>
       <SetField name="Index" content="/Root/(apps)/File/Browse">20</SetField>
       <SetField name="Index" content="/Root/(apps)/File/Edit">3950</SetField>
