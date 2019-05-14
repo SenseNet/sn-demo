@@ -103,6 +103,11 @@
         identity="/Root/IMS/BuiltIn/Portal/Everyone"
         allow="See"
         />
+      <SetPermissions
+        path="/Root/(apps)/File/OpenInEditor"
+        identity="/Root/IMS/BuiltIn/Portal/Everyone"
+        allow="RunApplication"
+        />
     </Phase>
   </Steps>
 </Package>
