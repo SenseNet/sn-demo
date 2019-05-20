@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>e2e-admin</ContentName>
+  <Fields>
+    <DisplayName>E2E Admin</DisplayName>
+    <JobTitle>Boss</JobTitle>
+    <Enabled>true</Enabled>
+    <Email>e2e.admin@sensenet.com</Email>
+    <LoginName>e2e.admin@sensenet.com</LoginName>
+    <FullName>E2E Admin</FullName>
+    <Password>
+      <Text>e2eadmin</Text>
+    </Password>
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>+36301234567</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/e2e-admin">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

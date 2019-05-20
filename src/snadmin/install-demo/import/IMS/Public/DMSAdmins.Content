@@ -4,8 +4,9 @@
   <ContentName>DMSAdmins</ContentName>
   <Fields>
     <DisplayName>DMSAdmins</DisplayName>
-	<Members>
+    <Members>
       <Path>/Root/IMS/Public/businesscat</Path>
+      <Path>/Root/IMS/Public/e2e-admin</Path>
     </Members>
   </Fields>
   <Permissions>
