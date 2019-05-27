@@ -19,7 +19,7 @@
     <PersonalizationSettings attachment="Edit.PersonalizationSettings" />
     <DisplayName><![CDATA[$Action,UserEdit]]></DisplayName>
     <Description><![CDATA[]]></Description>
-    <Scenario><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;SimpleListItem;SimpleApprovableListItem;DMSUserActions]]></Scenario>
+    <Scenario><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;SimpleListItem;SimpleApprovableListItem]]></Scenario>
     <ActionTypeName><![CDATA[]]></ActionTypeName>
     <IsModal>false</IsModal>
     <Disabled>false</Disabled>
