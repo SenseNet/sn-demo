@@ -116,7 +116,7 @@
         />
 
       <SetField name="Share" content="/Root/Profiles/Public/alba/Document_Library/Sample-document.docx"><![CDATA[
-        {
+        [{
             "Id": "f75b487f-fdb4-4cd0-9d20-82b0f42a9486",
             "Token": "businesscat@sensenet.com",
             "Identity": "/Root/IMS/Public/businesscat",
@@ -124,10 +124,10 @@
             "Level": "Open",
             "CreatorId": 1,
             "ShareDate": "2018-10-16T00:40:15Z"
-        }
+        }]
       ]]></SetField>
       <SetField name="Share" content="/Root/Profiles/Public/businesscat/Document_Library/Sample-document.docx"><![CDATA[
-        {
+        [{
             "Id": "86c2d1f6-9a05-4923-bd38-9defee4b3b5f",
             "Token": "alba@sensenet.com",
             "Identity": "/Root/IMS/Public/alba",
@@ -135,7 +135,7 @@
             "Level": "Open",
             "CreatorId": 1,
             "ShareDate": "2018-10-16T00:40:15Z"
-        }
+        }]
       ]]></SetField>
     </Phase>
   </Steps>
