@@ -64,7 +64,7 @@
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/CopyTo"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Versions"><![CDATA[ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/SetPermissions"><![CDATA[WorkspaceActions;ListItem;ExploreActions;DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/SetPermissions"><![CDATA[WorkspaceActions;ListItem;ExploreActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Edit"><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;SimpleListItem;SimpleApprovableListItem,DMSListItem;DMSGroupListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/DeleteBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/CopyBatch"><![CDATA[DMSBatchActions]]></SetField>
@@ -72,6 +72,8 @@
       <SetField name="Scenario" content="/Root/(apps)/File/Preview"><![CDATA[ListItem;DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/File/Browse"><![CDATA[ListItem;ExploreToolbar;DocumentDetails;DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/File/Edit"><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;DocumentDetails;DMSListItem;DMSBreadcrumb]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/WopiOpenEdit"><![CDATA[DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/WopiOpenView"><![CDATA[DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Approve"><![CDATA[ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckIn"><![CDATA[ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckOut"><![CDATA[ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
@@ -91,6 +93,8 @@
       <SetField name="Icon" content="/Root/(apps)/File/Browse">download</SetField>
       <SetField name="Icon" content="/Root/(apps)/File/Preview">preview</SetField>
       <SetField name="Icon" content="/Root/(apps)/User/Edit">settings</SetField>
+      <SetField name="Icon" content="/Root/(apps)/File/WopiOpenEdit">office</SetField>
+      <SetField name="Icon" content="/Root/(apps)/File/WopiOpenView">office</SetField>
       <!-- Change DMS related DisplayNames in ContentTemplates. -->
       <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty document.docx">document</SetField>
       <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty presentation.pptx">slide</SetField>
@@ -108,11 +112,6 @@
         path="/Root/System/Schema/ContentTypes/GenericContent/File/DemoFile"
         identity="/Root/IMS/BuiltIn/Portal/Everyone"
         allow="See"
-        />
-      <SetPermissions
-        path="/Root/(apps)/File/OpenInEditor"
-        identity="/Root/IMS/BuiltIn/Portal/Everyone"
-        allow="RunApplication"
         />
 
       <SetField name="Sharing" content="/Root/Profiles/Public/alba/Document_Library/Sample-document.docx"><![CDATA[
