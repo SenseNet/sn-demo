@@ -287,3 +287,4 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 /src/snadmin/install-demo.zip
+/src/snadmin/install-demo-dev.zip
