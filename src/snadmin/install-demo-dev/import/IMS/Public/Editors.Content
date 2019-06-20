@@ -5,7 +5,7 @@
   <Fields>
    <Description>Members of this groups can manage content items, build and save custom search queries.</Description>
     <Members>
-      <Path>/Root/IMS/Public/editormanateee</Path>
+      <Path>/Root/IMS/Public/editormanatee</Path>
     </Members>
   </Fields>
 </ContentMetaData>
