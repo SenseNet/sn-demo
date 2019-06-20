@@ -23,7 +23,7 @@
       <ManageListsAndWorkspaces>Allow</ManageListsAndWorkspaces>
       <TakeOwnership>Allow</TakeOwnership>
     </Identity>
-    <Identity path="/Root/IMS/BuiltIn/Portal/Owners">
+    <Identity path="/Root/IMS/BuiltIn/Public/Administrators">
       <See>Allow</See>
       <Open>Allow</Open>
       <OpenMinor>Allow</OpenMinor>
@@ -39,8 +39,27 @@
       <SetPermissions>Allow</SetPermissions>
       <RunApplication>Allow</RunApplication>
       <ManageListsAndWorkspaces>Allow</ManageListsAndWorkspaces>
+      <TakeOwnership>Allow</TakeOwnership>
     </Identity>
-    <Identity path="/Root/IMS/BuiltIn/Portal/IdentifiedUsers" propagation="LocalOnly">
+    <Identity path="/Root/IMS/BuiltIn/Public/Editors">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <Publish>Allow</Publish>
+      <ForceCheckin>Allow</ForceCheckin>
+      <AddNew>Allow</AddNew>
+      <Approve>Allow</Approve>
+      <Delete>Allow</Delete>
+      <RecallOldVersion>Allow</RecallOldVersion>
+      <DeleteOldVersion>Allow</DeleteOldVersion>
+      <SeePermissions>Allow</SeePermissions>
+      <SetPermissions>Allow</SetPermissions>
+      <RunApplication>Allow</RunApplication>
+      <ManageListsAndWorkspaces>Allow</ManageListsAndWorkspaces>
+      <TakeOwnership>Allow</TakeOwnership>
+    </Identity>
+    <Identity path="/Root/IMS/BuiltIn/Portal/Everyone" propagation="LocalOnly">
       <Open>Allow</Open>
     </Identity>
   </Permissions>
