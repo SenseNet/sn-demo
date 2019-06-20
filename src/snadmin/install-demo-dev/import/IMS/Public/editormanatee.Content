@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>editormanatee</ContentName>
+  <Fields>
+    <DisplayName>Editor Manatee</DisplayName>
+    <JobTitle>Content Editor</JobTitle>
+    <Enabled>true</Enabled>
+    <Email>editormanatee@sensenet.com</Email>
+	<LoginName>editormanatee</LoginName>
+    <FullName>Developer Dog</FullName>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/editormanatee.jpeg</Path>
+    </ImageRef>
+    <Password>
+      <Text>editormanatee</Text>
+    </Password>
+    <Languages>Twoot</Languages>
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>+36301928374</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/editormanatee">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>
