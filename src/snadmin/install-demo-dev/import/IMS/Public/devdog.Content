@@ -7,7 +7,7 @@
     <JobTitle>Developer</JobTitle>
     <Enabled>true</Enabled>
     <Email>devdog@sensenet.com</Email>
-	<LoginName>devdog@sensenet.com</LoginName>
+	<LoginName>devdog</LoginName>
     <FullName>Developer Dog</FullName>
 	<ImageRef>
       <Path>/Root/Content/demoavatars/devdog.jpg</Path>

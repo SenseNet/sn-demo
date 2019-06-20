@@ -7,7 +7,7 @@
     <JobTitle>Boss</JobTitle>
     <Enabled>true</Enabled>
     <Email>businesscat@sensenet.com</Email>
-	<LoginName>businesscat@sensenet.com</LoginName>
+	<LoginName>businesscat</LoginName>
     <FullName>Business Cat</FullName>
 	<ImageRef>
       <Path>/Root/Content/demoavatars/businesscat.jpeg</Path>
