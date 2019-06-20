@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>devdog</ContentName>
+  <Fields>
+    <DisplayName>Developer Dog</DisplayName>
+    <JobTitle>Developer</JobTitle>
+    <Enabled>true</Enabled>
+    <Email>devdog@sensenet.com</Email>
+	<LoginName>devdog@sensenet.com</LoginName>
+    <FullName>Developer Dog</FullName>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/devdog.jpeg</Path>
+    </ImageRef>
+    <Password>
+      <Text>devdog</Text>
+    </Password>
+    <Languages>Woof</Languages>
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>+36309876543</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/devdog">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

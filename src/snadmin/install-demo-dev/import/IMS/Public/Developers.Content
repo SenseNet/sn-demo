@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Group</ContentType>
+  <ContentName>Developers</ContentName>
+  <Fields>
+    <Description>Members of this groups can manage content types and settings and can see version info.</Description>
+    <Members>
+    </Members>
+  </Fields>
+</ContentMetaData>
