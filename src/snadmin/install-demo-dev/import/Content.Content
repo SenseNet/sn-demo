@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
-  <ContentType>Content</ContentType>
+  <ContentType>Workspace</ContentType>
   <ContentName>Content</ContentName>
   <Permissions>
     <Clear />
