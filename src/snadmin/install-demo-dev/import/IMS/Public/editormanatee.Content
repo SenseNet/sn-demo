@@ -10,7 +10,7 @@
 	<LoginName>editormanatee</LoginName>
     <FullName>Developer Dog</FullName>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/editormanatee.jpeg</Path>
+      <Path>/Root/Content/demoavatars/editormanatee.jpg</Path>
     </ImageRef>
     <Password>
       <Text>editormanatee</Text>
