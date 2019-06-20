@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>ImageLibrary</ContentType>
-  <ContentName>Content</ContentName>
+  <ContentName>demoavatars</ContentName>
   <Permissions>
     <Clear />
     <Break />
