@@ -2,8 +2,4 @@
 <ContentMetaData>
   <ContentType>ImageLibrary</ContentType>
   <ContentName>demoavatars</ContentName>
-  <Permissions>
-    <Clear />
-    <Break />
-  </Permissions>
 </ContentMetaData>

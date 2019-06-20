@@ -23,7 +23,7 @@
       <ManageListsAndWorkspaces>Allow</ManageListsAndWorkspaces>
       <TakeOwnership>Allow</TakeOwnership>
     </Identity>
-    <Identity path="/Root/IMS/BuiltIn/Public/Administrators">
+    <Identity path="/Root/IMS/Public/Administrators">
       <See>Allow</See>
       <Open>Allow</Open>
       <OpenMinor>Allow</OpenMinor>
@@ -41,7 +41,7 @@
       <ManageListsAndWorkspaces>Allow</ManageListsAndWorkspaces>
       <TakeOwnership>Allow</TakeOwnership>
     </Identity>
-    <Identity path="/Root/IMS/BuiltIn/Public/Editors">
+    <Identity path="/Root/IMS/Public/Editors">
       <See>Allow</See>
       <Open>Allow</Open>
       <OpenMinor>Allow</OpenMinor>
