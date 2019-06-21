@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>Group</ContentType>
-  <ContentName>Administrators</ContentName>
+  <ContentName>Editors</ContentName>
   <Fields>
    <Description>Members of this groups can manage content items, build and save custom search queries.</Description>
     <Members>
