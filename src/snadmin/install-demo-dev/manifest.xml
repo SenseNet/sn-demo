@@ -49,7 +49,7 @@
       <Import target="/Root" LogLevel="Verbose" source="import" />           
 
       <EditAllowedChildTypes path="/Root" add="DemoWorkspace" />
-
+      <EditAllowedChildTypes path="/Root/Content" add="DemoWorkspace" />
       <SetPermissions
         path="/Root/(apps)/GenericContent/Login"
         identity="/Root/IMS/BuiltIn/Portal/Everyone"
