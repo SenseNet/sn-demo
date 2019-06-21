@@ -1,0 +1,7 @@
+<ContentType name="DemoWorkspace" parentType="Workspace" handler="SenseNet.ContentRepository.Workspaces.Workspace" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>Demo Workspace</DisplayName>
+  <Description>Workspace type to demonstrate sensenet's capabilities in collaboration with custom ContentTypes and ContentTemplates</Description>
+  <Icon>workspace</Icon>
+  <AllowedChildTypes>Folder,DocumentLibrary,ImageLibrary,EventList,MemoList,LinkList,TaskList</AllowedChildTypes>
+  <Fields></Fields>
+</ContentType>
