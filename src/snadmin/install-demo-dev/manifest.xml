@@ -48,6 +48,8 @@
       
       <Import target="/Root" LogLevel="Verbose" source="import" />           
 
+      <EditAllowedChildTypes contentType="PortalRoot" add="DemoWorkspace" />
+
       <SetPermissions
         path="/Root/(apps)/GenericContent/Login"
         identity="/Root/IMS/BuiltIn/Portal/Everyone"
@@ -58,7 +60,11 @@
         identity="/Root/IMS/BuiltIn/Portal/Visitor"
         allow="RunApplication"
         />
-
+      <SetPermissions
+        path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace/DemoWorkspace"
+        identity="/Root/IMS/BuiltIn/Portal/Everyone"
+        allow="See"
+        />
     </Phase>
   </Steps>
 </Package>
