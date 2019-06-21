@@ -32,11 +32,11 @@
         </Source>
       </AppendXmlFragment>
       
-	  <!-- <AppendXmlFragment file="web.config" xpath="/configuration/sensenet/identityManagement">
+	  <AppendXmlFragment file="web.config" xpath="/configuration/sensenet/identityManagement">
         <Source>
           <add key="DefaultDomain" value="Public"/>
         </Source>
-      </AppendXmlFragment> -->
+      </AppendXmlFragment>
 
       <StartRepository startWorkflowEngine="false" />
 
