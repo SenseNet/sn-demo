@@ -48,6 +48,17 @@
       
       <Import target="/Root" LogLevel="Verbose" source="import" />           
 
+      <SetPermissions
+        path="/Root/(apps)/GenericContent/Login"
+        identity="/Root/IMS/BuiltIn/Portal/Everyone"
+        allow="RunApplication"
+        />
+      <SetPermissions
+        path="/Root/(apps)/GenericContent/Login"
+        identity="/Root/IMS/BuiltIn/Portal/Visitor"
+        allow="RunApplication"
+        />
+
     </Phase>
   </Steps>
 </Package>
