@@ -48,7 +48,7 @@
       
       <Import target="/Root" LogLevel="Verbose" source="import" />           
 
-      <EditAllowedChildTypes contentType="PortalRoot" add="DemoWorkspace" />
+      <EditAllowedChildTypes path="/Root" add="DemoWorkspace" />
 
       <SetPermissions
         path="/Root/(apps)/GenericContent/Login"
