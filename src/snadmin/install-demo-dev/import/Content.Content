@@ -2,6 +2,9 @@
 <ContentMetaData>
   <ContentType>Workspace</ContentType>
   <ContentName>Content</ContentName>
+  <Fields>
+    <AllowedChildTypes>Folder, DocumentLibrary, ImageLibrary, EventList, MemoList, LinkList, TaskList, CustomList, Workspace, SystemFolder, DemoWorkspace</AllowedChildTypes>
+  </Fields>
   <Permissions>
     <Clear />
     <Break />
