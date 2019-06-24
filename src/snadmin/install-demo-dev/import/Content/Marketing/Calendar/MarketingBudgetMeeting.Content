@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>CalendarEvent</ContentType>
+  <ContentName>MarketingBudgetMeeting</ContentName>
+  <Fields>
+    <DisplayName>Marketing Budget Meeting</DisplayName>
+    <Description><![CDATA[Discuss marketing budget]]></Description>
+    <StartDate>2019-05-10T00:00:00</StartDate>
+    <EndDate>2019-05-12T00:00:00</EndDate>
+    <AllDay>false</AllDay>
+    <Location>Meeting room 1.</Location>
+    <RequiresRegistration>false</RequiresRegistration>
+    <NotificationMode></NotificationMode>
+    <MaxParticipants>7</MaxParticipants>
+    <NumParticipants>7</NumParticipants>
+    <Index>0</Index>
+    <Hidden>false</Hidden>
+    <EnableLifespan>false</EnableLifespan>
+    <ValidFrom>0001-01-01T00:00:00</ValidFrom>
+    <ValidTill>0001-01-01T00:00:00</ValidTill>
+        <TrashDisabled>false</TrashDisabled>
+    <IsTaggable>false</IsTaggable>
+    <IsRateable>false</IsRateable>
+    <RateAvg>0.0000</RateAvg>
+    <RateCount>0</RateCount>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>
