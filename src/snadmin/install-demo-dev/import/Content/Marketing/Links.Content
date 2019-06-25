@@ -4,8 +4,6 @@
   <ContentName>Links</ContentName>
   <Fields>
     <DisplayName><![CDATA[$ContentTemplates,Links]]></DisplayName>
-    <ContentListDefinition><![CDATA[<ContentListDefinition xmlns='http://schemas.sensenet.com/SenseNet/ContentRepository/ContentListDefinition'><Fields /></ContentListDefinition>]]></ContentListDefinition>
-    <AvailableViews />
     <OverwriteFiles>false</OverwriteFiles>
     <GroupAttachments></GroupAttachments>
     <SaveOriginalEmail>false</SaveOriginalEmail>

@@ -4,9 +4,7 @@
   <ContentName>Calendar</ContentName>
   <Fields>
     <DisplayName><![CDATA[$ContentTemplates,Calendar]]></DisplayName>
-    <ContentListDefinition><![CDATA[<ContentListDefinition xmlns='http://schemas.sensenet.com/SenseNet/ContentRepository/ContentListDefinition'><Fields /></ContentListDefinition>]]></ContentListDefinition>
     <RegistrationFolder />
-    <AvailableViews />
     <OverwriteFiles>false</OverwriteFiles>
     <GroupAttachments></GroupAttachments>
     <SaveOriginalEmail>false</SaveOriginalEmail>
