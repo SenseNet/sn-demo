@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>CalendarEvent</ContentType>
-  <ContentName>MarketingStrategyMeeting </ContentName>
+  <ContentName>MarketingStrategyMeeting</ContentName>
   <Fields>
     <DisplayName>Marketing Strategy Meeting </DisplayName>
     <Description><![CDATA[Discuss opportunity(ies) for growth (firm revenue, niche / industry sector, service area)]]></Description>
