@@ -5,7 +5,7 @@
   <Fields>
     <DisplayName>Infrastructure Meeting</DisplayName>
     <Description><![CDATA[Meeting about the future infrastructure]]></Description>
-    <StartDate>2019-06-26T19:30:00</StartDate>
+    <StartDate>2019-06-26T09:30:00</StartDate>
     <EndDate>2019-06-26T10:30:00</EndDate>
     <AllDay>false</AllDay>
     <Location></Location>

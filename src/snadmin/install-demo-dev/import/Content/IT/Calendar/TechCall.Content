@@ -5,8 +5,8 @@
   <Fields>
     <DisplayName>Tech Call with Thorwell Group</DisplayName>
     <Description><![CDATA[Discuss questionable things]]></Description>
-    <StartDate>2019-06-26T19:30:00</StartDate>
-    <EndDate>2019-06-26T10:30:00</EndDate>
+    <StartDate>2019-06-26T08:30:00</StartDate>
+    <EndDate>2019-06-26T09:30:00</EndDate>
     <AllDay>false</AllDay>
     <Location></Location>
     <RequiresRegistration>false</RequiresRegistration>
