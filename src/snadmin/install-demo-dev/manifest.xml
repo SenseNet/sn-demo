@@ -45,6 +45,12 @@
           OfficeOnlineUrl: "https://oos.sn.hu"
         }
       </EditJson>
+
+      <EditJson Path="/Root/System/Settings/DocumentPreview.settings">
+        {
+          MaxPreviewCount: 2
+        }
+      </EditJson>
       
       <Import target="/Root" LogLevel="Verbose" source="import" />           
 
