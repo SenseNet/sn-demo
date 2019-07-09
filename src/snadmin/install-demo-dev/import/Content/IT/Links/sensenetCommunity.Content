@@ -4,7 +4,7 @@
   <ContentName>sensenetCommunity</ContentName>
   <Fields>
     <DisplayName>sensenet Community</DisplayName>
-    <Url>https://community.sensenet.com//</Url>
+    <Url>https://community.sensenet.com/</Url>
     <Description><![CDATA[]]></Description>
     <Index>0</Index>
     <Hidden>false</Hidden>
