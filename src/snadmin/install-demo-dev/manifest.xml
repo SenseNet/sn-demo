@@ -78,6 +78,10 @@
       <SetField name="Index" content="/Root/System/Settings/OfficeOnline.settings">40</SetField>
       <SetField name="Index" content="/Root/System/Settings/Indexing.settings">50</SetField>
       <SetField name="Index" content="/Root/System/Settings/Sharing.settings">60</SetField>
+      <SetField name="Index" content="/Root/System/Settings/Logging.settings">100</SetField>
+      <SetField name="Index" content="/Root/System/Settings/MailProcessor.settings">200</SetField>
+      <SetField name="Index" content="/Root/System/Settings/UserProfile.settings">300</SetField>
+      <SetField name="Index" content="/Root/System/Settings/TaskManagement.settings">400</SetField>
 
       <SetPermissions path="/Root/System/Settings/Portal.settings" identity="/Root/IMS/Public/Administrators" allow="Save" />
       <SetPermissions path="/Root/System/Settings/OAuth.settings" identity="/Root/IMS/Public/Administrators" allow="Save" />
