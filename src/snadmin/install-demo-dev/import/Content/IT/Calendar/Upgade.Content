@@ -8,7 +8,7 @@
     <StartDate>2019-05-10T00:00:00</StartDate>
     <EndDate>2019-05-12T00:00:00</EndDate>
     <AllDay>false</AllDay>
-    <Location></Location>
+    <Location>Team room 1.</Location>
     <RequiresRegistration>false</RequiresRegistration>
     <NotificationMode></NotificationMode>
     <MaxParticipants>0</MaxParticipants>
