@@ -9,13 +9,17 @@
     <Email>devdog@sensenet.com</Email>
 	<LoginName>devdog</LoginName>
     <FullName>Developer Dog</FullName>
+    <Department>IT department</Department>
+    <Manager>/Root/IMS/Public/editormanatee</Manager>
+    <MaritalStatus>Single</MaritalStatus>
+    <Gender>Female</Gender>
 	<ImageRef>
       <Path>/Root/Content/demoavatars/devdog.jpg</Path>
     </ImageRef>
     <Password>
       <Text>devdog</Text>
     </Password>
-    <Languages>Woof</Languages>
+    <Languages>Woof;german</Languages>
     <TrashDisabled>false</TrashDisabled>
     <Phone>+36309876543</Phone>
   </Fields>

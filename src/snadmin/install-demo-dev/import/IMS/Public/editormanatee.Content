@@ -9,13 +9,17 @@
     <Email>editormanatee@sensenet.com</Email>
 	<LoginName>editormanatee</LoginName>
     <FullName>Developer Dog</FullName>
+    <Department>Public Relations Department</Department>
+    <Manager>/Root/IMS/Public/businesscat</Manager>
+    <MaritalStatus>Married</MaritalStatus>
+    <Gender>Male</Gender>
 	<ImageRef>
       <Path>/Root/Content/demoavatars/editormanatee.jpg</Path>
     </ImageRef>
     <Password>
       <Text>editormanatee</Text>
     </Password>
-    <Languages>Twoot</Languages>
+    <Languages>Twoot;english;german</Languages>
     <TrashDisabled>false</TrashDisabled>
     <Phone>+36301928374</Phone>
   </Fields>
