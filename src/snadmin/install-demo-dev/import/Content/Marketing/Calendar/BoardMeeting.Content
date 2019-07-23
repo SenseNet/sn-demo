@@ -7,7 +7,7 @@
     <Description><![CDATA[Monthly meeting with the stackholders]]></Description>
     <StartDate>2019-05-11T12:00:00</StartDate>
     <EndDate>2019-05-11T13:00:00</EndDate>
-    <AllDay>false</AllDay>
+    <AllDay>true</AllDay>
     <Location>Meeting room 2.</Location>
     <RequiresRegistration>false</RequiresRegistration>
     <NotificationMode></NotificationMode>

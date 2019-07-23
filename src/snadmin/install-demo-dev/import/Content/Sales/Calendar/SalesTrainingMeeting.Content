@@ -7,7 +7,7 @@
     <Description><![CDATA[Initial classroom training while incorporating some of the experiences in the field]]></Description>
     <StartDate>2019-02-19T10:00:00</StartDate>
     <EndDate>2019-02-19T15:00:00</EndDate>
-    <AllDay>false</AllDay>
+    <AllDay>true</AllDay>
     <Location>Meeting room 1.</Location>
     <RequiresRegistration>false</RequiresRegistration>
     <NotificationMode></NotificationMode>

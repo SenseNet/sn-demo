@@ -7,7 +7,7 @@
     <Description><![CDATA[Change based code review]]></Description>
     <StartDate>2019-07-02T09:00:00</StartDate>
     <EndDate>2019-07-02T14:00:00</EndDate>
-    <AllDay>false</AllDay>
+    <AllDay>true</AllDay>
     <Location>Team Room 1.</Location>
     <RequiresRegistration>false</RequiresRegistration>
     <NotificationMode></NotificationMode>

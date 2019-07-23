@@ -7,7 +7,7 @@
     <Description><![CDATA[Weekly task refinement meeting]]></Description>
     <StartDate>2019-07-01T10:00:00</StartDate>
     <EndDate>2019-07-01T11:00:00</EndDate>
-    <AllDay>false</AllDay>
+    <AllDay>true</AllDay>
     <Location>Team Room 2.</Location>
     <RequiresRegistration>false</RequiresRegistration>
     <NotificationMode></NotificationMode>
