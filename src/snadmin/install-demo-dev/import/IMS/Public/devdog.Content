@@ -10,7 +10,9 @@
 	<LoginName>devdog</LoginName>
     <FullName>Developer Dog</FullName>
     <Department>IT department</Department>
-    <Manager>/Root/IMS/Public/editormanatee</Manager>
+    <Manager>
+    <Path>/Root/IMS/Public/editormanatee</Path>
+    </Manager>
     <MaritalStatus>Single</MaritalStatus>
     <Gender>Female</Gender>
 	<ImageRef>

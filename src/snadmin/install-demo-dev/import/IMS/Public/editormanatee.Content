@@ -10,7 +10,7 @@
 	<LoginName>editormanatee</LoginName>
     <FullName>Developer Dog</FullName>
     <Department>Public Relations Department</Department>
-    <Manager>/Root/IMS/Public/businesscat</Manager>
+    <Manager><Path>/Root/IMS/Public/businesscat</Path></Manager>
     <MaritalStatus>Married</MaritalStatus>
     <Gender>Male</Gender>
 	<ImageRef>
