@@ -72,6 +72,12 @@
         allow="See"
         />
 
+        <SetPermissions
+        path="/Root/Content/IT/ImageLibrary"
+        identity="/Root/IMS/BuiltIn/Portal/Visitor"
+        allow="Open"
+        />
+
       <SetField name="Index" content="/Root/System/Settings/Portal.settings">10</SetField>
       <SetField name="Index" content="/Root/System/Settings/OAuth.settings">20</SetField>
       <SetField name="Index" content="/Root/System/Settings/DocumentPreview.settings">30</SetField>
