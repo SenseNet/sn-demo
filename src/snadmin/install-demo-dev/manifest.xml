@@ -118,65 +118,65 @@
 
       <!-- ctd permissions -->
 
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ContentLink" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ContentLink" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ContentLink" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ContentLink" identity="/Root/IMS/Public/Administrators" allow="Save" />
       
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File" identity="/Root/IMS/Public/Administrators" allow="Save" />
 
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder" identity="/Root/IMS/Public/Administrators" allow="Save" />
 
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/User" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/User" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/User" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/User" identity="/Root/IMS/Public/Administrators" allow="Save" />
       
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Image" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Image" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Image" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Image" identity="/Root/IMS/Public/Administrators" allow="Save" />
 
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/ImageLibrary" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/ImageLibrary" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/ImageLibrary" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/ImageLibrary" identity="/Root/IMS/Public/Administrators" allow="Save" />
       
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/DocumentLibrary" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/DocumentLibrary" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/DocumentLibrary" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/DocumentLibrary" identity="/Root/IMS/Public/Administrators" allow="Save" />
       
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/EventList" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/EventList" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/EventList" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/EventList" identity="/Root/IMS/Public/Administrators" allow="Save" />
 
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/LinkList" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/LinkList" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/LinkList" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/LinkList" identity="/Root/IMS/Public/Administrators" allow="Save" />
 
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/MemoList" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/MemoList" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/MemoList" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/MemoList" identity="/Root/IMS/Public/Administrators" allow="Save" />
       
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/TaskList" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/TaskList" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/TaskList" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/TaskList" identity="/Root/IMS/Public/Administrators" allow="Save" />
 
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/SmartFolder" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/SmartFolder" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/SmartFolder" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/SmartFolder" identity="/Root/IMS/Public/Administrators" allow="Save" />
 
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace" identity="/Root/IMS/Public/Administrators" allow="Save" />
 
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/CalendarEvent" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/CalendarEvent" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/CalendarEvent" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/CalendarEvent" identity="/Root/IMS/Public/Administrators" allow="Save" />
       
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Link" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Link" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Link" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Link" identity="/Root/IMS/Public/Administrators" allow="Save" />
       
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Memo" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Memo" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Memo" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Memo" identity="/Root/IMS/Public/Administrators" allow="Save" />
 
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Task" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Task" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Task" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Task" identity="/Root/IMS/Public/Administrators" allow="Save" />
 
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/OrganizationalUnit" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/OrganizationalUnit" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/OrganizationalUnit" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/OrganizationalUnit" identity="/Root/IMS/Public/Administrators" allow="Save" />
       
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ArticleSection" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ArticleSection" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ArticleSection" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ArticleSection" identity="/Root/IMS/Public/Administrators" allow="Save" />
 
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/WebContent/Article" identity="/Root/IMS/Public/Developers" allow="See" />
-      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/WebContent/Article" identity="/Root/IMS/Public/Administrators" allow="See" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/WebContent/Article" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/WebContent/Article" identity="/Root/IMS/Public/Administrators" allow="Save" />
 
     </Phase>
   </Steps>
