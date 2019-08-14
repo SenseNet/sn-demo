@@ -178,8 +178,8 @@
       <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/WebContent/Article" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="true" />
       <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/WebContent/Article" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="true" />
 
-      <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Administrators" allow="Save">
-      <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Developers" allow="Save">
+      <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Administrators" allow="Save" />
+      <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Developers" allow="Save" />
 
     </Phase>
   </Steps>
