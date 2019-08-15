@@ -10,6 +10,9 @@
     <Field name="Name" type="ShortText">
       <Configuration>
         <DefaultValue>Calendar</DefaultValue>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
       </Configuration>
     </Field>
     <Field name="ContentListDefinition" type="LongText">
@@ -26,6 +29,9 @@
         <AllowedTypes>
           <Type>Folder</Type>
         </AllowedTypes>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
       </Configuration>
     </Field>
     <Field name="Version" type="Version">
