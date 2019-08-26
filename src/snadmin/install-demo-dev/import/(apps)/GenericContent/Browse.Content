@@ -4,9 +4,9 @@
   <ContentName>Browse</ContentName>
   <Fields>
 	<DisplayName><![CDATA[$Action,Browse]]></DisplayName>
-    <ActionTypeName><![CDATA[BrowseAction]]></ActionTypeName>
+    <ActionTypeName></ActionTypeName>
     <Icon><![CDATA[browse]]></Icon>
-    <RequiredPermissions>See;Open;</RequiredPermissions>
+    <RequiredPermissions>Open</RequiredPermissions>
   </Fields>
   <Permissions>
     <Clear />

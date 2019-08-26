@@ -4,7 +4,7 @@
   <ContentName>Edit</ContentName>
   <Fields>
 	<DisplayName><![CDATA[$Action,Edit]]></DisplayName>
-    <ActionTypeName><![CDATA[EditAction]]></ActionTypeName>
+    <ActionTypeName></ActionTypeName>
     <Icon><![CDATA[edit]]></Icon>
     <RequiredPermissions>See;Open;OpenMinor;Save</RequiredPermissions>
   </Fields>
