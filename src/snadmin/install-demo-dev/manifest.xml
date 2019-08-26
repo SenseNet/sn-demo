@@ -181,10 +181,12 @@
       <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Administrators" allow="Save" />
       <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Developers" allow="Save" />
 
-      <EditPermissions path="/Root/(apps)/GenericContent/HasPermission" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
-      <EditPermissions path="/Root/(apps)/GenericContent/GetPermissions" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
-      <EditPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Developers" allow="RunApplication" />
-      <EditPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Administrators" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/GenericContent/HasPermission" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/ContentType/HasPermission" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/GenericContent/GetPermissions" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/ContentType/GetPermissions" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Developers" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Administrators" allow="RunApplication" />
 
       <SetPermissions path="/Root/IMS/Public" identity="/Root/IMS/Public/Developers" allow="AddNew" />
       <SetPermissions path="/Root/IMS/Public" identity="/Root/IMS/Public/Administrators" allow="AddNew" />
