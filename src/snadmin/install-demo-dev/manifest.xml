@@ -178,13 +178,8 @@
       <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/WebContent/Article" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
       <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/WebContent/Article" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
 
-      <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Administrators" allow="Save" />
-      <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Developers" allow="Save" />
-
       <SetPermissions path="/Root/(apps)/GenericContent/HasPermission" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
-      <SetPermissions path="/Root/(apps)/ContentType/HasPermission" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
       <SetPermissions path="/Root/(apps)/GenericContent/GetPermissions" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
-      <SetPermissions path="/Root/(apps)/ContentType/GetPermissions" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
       <SetPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Developers" allow="RunApplication" />
       <SetPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Administrators" allow="RunApplication" />
 
