@@ -102,6 +102,9 @@
       <SetField name="Index" content="/Root/System/Settings/UserProfile.settings">300</SetField>
       <SetField name="Index" content="/Root/System/Settings/TaskManagement.settings">400</SetField>
 
+      <SetPermissions path="/Root/System/Settings" identity="/Root/IMS/Public/Administrators" allow="Open" />
+      <SetPermissions path="/Root/System/Settings" identity="/Root/IMS/Public/Developers" allow="Open" />
+
       <SetPermissions path="/Root/System/Settings/Portal.settings" identity="/Root/IMS/Public/Administrators" allow="Save" />
       <SetPermissions path="/Root/System/Settings/OAuth.settings" identity="/Root/IMS/Public/Administrators" allow="Save" />
       <SetPermissions path="/Root/System/Settings/DocumentPreview.settings" identity="/Root/IMS/Public/Administrators" allow="Save" />
