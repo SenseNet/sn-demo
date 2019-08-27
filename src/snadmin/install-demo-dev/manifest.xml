@@ -192,6 +192,10 @@
       <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Developers" allow="AddNew" />
       <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Administrators" allow="AddNew" />
 
+      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Developers" allow="AddNew" />
+      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Administrators" allow="AddNew" />
+      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Editors" allow="AddNew" />
+
     </Phase>
   </Steps>
 </Package>
