@@ -180,8 +180,8 @@
 
       <SetPermissions path="/Root/(apps)/GenericContent/HasPermission" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
       <SetPermissions path="/Root/(apps)/GenericContent/GetPermissions" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
-      <SetPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Developers" allow="RunApplication" />
-      <SetPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Administrators" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Developers" allow="RunApplication;Open" />
+      <SetPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Administrators" allow="RunApplication;Open" />
 
       <SetPermissions path="/Root/IMS/Public" identity="/Root/IMS/Public/Developers" allow="AddNew" />
       <SetPermissions path="/Root/IMS/Public" identity="/Root/IMS/Public/Administrators" allow="AddNew" />
