@@ -6,7 +6,7 @@
 	<DisplayName><![CDATA[$Action,Add]]></DisplayName>
     <ActionTypeName></ActionTypeName>
     <Icon><![CDATA[add]]></Icon>
-    <RequiredPermissions>Open;Save;AddNew</RequiredPermissions>
+    <RequiredPermissions>AddNew</RequiredPermissions>
   </Fields>
   <Permissions>
     <Clear />
