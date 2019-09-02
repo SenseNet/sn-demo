@@ -327,6 +327,9 @@
         <data name="Purge" xml:space="preserve">
           <value>Empty Trash Bin</value>
         </data>
+        <data name="ContentPurge" xml:space="preserve">
+          <value>Purge</value>
+        </data>
         <data name="Restore" xml:space="preserve">
           <value>Restore</value>
         </data>
@@ -706,6 +709,9 @@
         </data>
         <data name="Purge" xml:space="preserve">
           <value>Kuka elemeinek végleges törlése</value>
+        </data>
+        <data name="ContentPurge" xml:space="preserve">
+          <value>Végleges törlés</value>
         </data>
         <data name="Restore" xml:space="preserve">
           <value>Visszaállítás</value>

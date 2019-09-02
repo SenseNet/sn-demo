@@ -199,6 +199,10 @@
       <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Administrators" allow="AddNew" />
       <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Editors" allow="AddNew" />
 
+      <SetPermissions path="/Root/Trash" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/Trash" identity="/Root/IMS/Public/Administrators" allow="Save" />
+      <SetPermissions path="/Root/Trash/(apps)/TrashBag/Restore" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+
     </Phase>
   </Steps>
 </Package>
