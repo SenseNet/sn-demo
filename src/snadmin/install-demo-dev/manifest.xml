@@ -55,12 +55,10 @@
       <EditJson Path="/Root/System/Settings/Portal.settings">
         {
           "AllowedOriginDomains": [
-		"localhost",
-		"localhost:8080",
+		    "localhost",
+		    "localhost:8080",
     		"*.sensenet.com",
-    		"*.netlify.com",
-    		"sn-dms-demo-dev.netlify.com",
-    		"dms.demo.sensenet.com"
+    		"*.netlify.com"
   		]
         }
       </EditJson>
