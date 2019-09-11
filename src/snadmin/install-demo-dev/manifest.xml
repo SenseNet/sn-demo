@@ -51,17 +51,6 @@
           MaxPreviewCount: 2
         }
       </EditJson>
-	    
-      <EditJson Path="/Root/System/Settings/Portal.settings">
-        {
-          "AllowedOriginDomains": [
-		    "localhost",
-		    "localhost:8080",
-    		"*.sensenet.com",
-    		"*.netlify.com"
-  		]
-        }
-      </EditJson>
       
       <Import target="/Root" LogLevel="Verbose" source="import" />           
 
