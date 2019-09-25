@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>organicbear854</ContentName>
+  <Fields>
+    <DisplayName>Clayton Jennings</DisplayName>
+    <Enabled>true</Enabled>
+    <Email>clayton.jennings@example.com</Email>
+	<LoginName>organicbear854</LoginName>
+    <FullName>Clayton Jennings</FullName>
+    <MaritalStatus>Single</MaritalStatus>
+    <Gender>Male</Gender>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/59.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>1963</Text>
+    </Password> 
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>011-531-3192</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/organicbear854">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>greenmeercat479</ContentName>
+  <Fields>
+    <DisplayName>Louis Thompson</DisplayName>
+    <Enabled>true</Enabled>
+    <Email>louis.thompson@example.com</Email>
+	<LoginName>greenmeercat479</LoginName>
+    <FullName>Louis Thompson</FullName>
+    <MaritalStatus>Married</MaritalStatus>
+    <Gender>Male</Gender>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/74.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>RibMb0wF</Text>
+    </Password> 
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>041-577-7075</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/greenmeercat479">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>smallgoose226</ContentName>
+  <Fields>
+    <DisplayName>Emmy Lambert</DisplayName>
+    <Enabled>true</Enabled>
+    <Email>emmy.lambert@example.com</Email>
+	<LoginName>smallgoose226</LoginName>
+    <FullName>Emmy Lambert</FullName>
+    <MaritalStatus>Married</MaritalStatus>
+    <Gender>Female</Gender>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/74w.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>monalisa</Text>
+    </Password> 
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>02-85-42-96-60</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/smallgoose226">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

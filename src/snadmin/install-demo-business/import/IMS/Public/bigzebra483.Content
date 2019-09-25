@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>bigzebra483</ContentName>
+  <Fields>
+    <DisplayName>Anna Sørensen</DisplayName>
+    <Enabled>true</Enabled>
+    <Email>anna.sorensen@example.com</Email>
+	<LoginName>bigzebra483</LoginName>
+    <FullName>Anna Sørensen</FullName>
+    <MaritalStatus>Married</MaritalStatus>
+    <Gender>Female</Gender>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/22.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>frenchy</Text>
+    </Password> 
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>76186156</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/bigzebra483">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

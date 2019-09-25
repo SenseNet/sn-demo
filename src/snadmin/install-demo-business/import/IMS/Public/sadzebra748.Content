@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>sadzebra748</ContentName>
+  <Fields>
+    <DisplayName>Zbigniew Winkelmann</DisplayName>
+    <Enabled>true</Enabled>
+    <Email>zbigniew.winkelmann@example.com</Email>
+	<LoginName>sadzebra748</LoginName>
+    <FullName>Zbigniew Winkelmann</FullName>
+    <MaritalStatus>Married</MaritalStatus>
+    <Gender>Male</Gender>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/22.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>quan</Text>
+    </Password> 
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>0994-7357706</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/sadzebra748">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

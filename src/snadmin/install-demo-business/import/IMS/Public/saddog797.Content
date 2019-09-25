@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>saddog797</ContentName>
+  <Fields>
+    <DisplayName>Peetu Pollari</DisplayName>
+    <Enabled>true</Enabled>
+    <Email>peetu.pollari@example.com</Email>
+	<LoginName>saddog797</LoginName>
+    <FullName>Peetu Pollari</FullName>
+    <MaritalStatus>Married</MaritalStatus>
+    <Gender>Male</Gender>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/86.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>sailing</Text>
+    </Password> 
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>02-872-531</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/saddog797">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

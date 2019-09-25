@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>crazylion735</ContentName>
+  <Fields>
+    <DisplayName>Apolline Guillaume</DisplayName>
+    <Enabled>true</Enabled>
+    <Email>apolline.guillaume@example.com</Email>
+	<LoginName>crazylion735</LoginName>
+    <FullName>Apolline Guillaume</FullName>
+    <MaritalStatus>Married</MaritalStatus>
+    <Gender>Female</Gender>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/16.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>1945</Text>
+    </Password> 
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>05-58-72-39-49</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/crazylion735">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>
