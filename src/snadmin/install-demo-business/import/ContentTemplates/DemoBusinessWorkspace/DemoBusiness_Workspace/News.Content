@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>Folder</ContentType>
-  <ContentName>Blog</ContentName>
+  <ContentName>News</ContentName>
   <Fields>
-    <DisplayName>Blog</DisplayName>
+    <DisplayName>News</DisplayName>
     <Index>2</Index>
   </Fields>
   <Permissions>
