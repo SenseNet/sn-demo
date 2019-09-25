@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>crazycat840</ContentName>
+  <Fields>
+    <DisplayName>Brendan Ellis</DisplayName>
+    <Enabled>true</Enabled>
+    <Email>brendan.ellis@example.com</Email>
+	<LoginName>crazycat840</LoginName>
+    <FullName>Brendan Ellis</FullName>
+    <MaritalStatus>Married</MaritalStatus>
+    <Gender>Male</Gender>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/20.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>emmitt</Text>
+    </Password> 
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>061-987-3938</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/crazycat840">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

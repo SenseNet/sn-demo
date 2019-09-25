@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>goldenpanda162</ContentName>
+  <Fields>
+    <DisplayName>Sally Brooks</DisplayName>
+    <Enabled>true</Enabled>
+    <Email>sally.brooks@example.com</Email>
+	<LoginName>goldenpanda162</LoginName>
+    <FullName>Sally Brooks</FullName>
+    <MaritalStatus>Married</MaritalStatus>
+    <Gender>Female</Gender>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/91.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>freefree</Text>
+    </Password> 
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>06-3780-8027</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/goldenpanda162">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

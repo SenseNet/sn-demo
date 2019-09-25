@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>beautifulleopard964</ContentName>
+  <Fields>
+    <DisplayName>Martin Miller</DisplayName>
+    <Enabled>true</Enabled>
+    <Email>martin.miller@example.com</Email>
+	<LoginName>beautifulleopard964</LoginName>
+    <FullName>Martin Miller</FullName>
+    <MaritalStatus>Single</MaritalStatus>
+    <Gender>Male</Gender>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/75.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>hello</Text>
+    </Password> 
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>509-440-5301</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/beautifulleopard964">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

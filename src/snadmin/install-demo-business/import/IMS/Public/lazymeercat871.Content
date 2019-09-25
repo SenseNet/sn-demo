@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>lazymeercat871</ContentName>
+  <Fields>
+    <DisplayName>Carter Freeman</DisplayName>
+    <Enabled>true</Enabled>
+    <Email>carter.freeman@example.com</Email>
+	<LoginName>lazymeercat871</LoginName>
+    <FullName>Carter Freeman</FullName>
+    <MaritalStatus>Single</MaritalStatus>
+    <Gender>Male</Gender>
+	<ImageRef>
+      <Path>/Root/Content/demoavatars/75.jpg</Path>
+    </ImageRef>
+    <Password>
+      <Text>boxster</Text>
+    </Password> 
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>03-1641-5077</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/lazymeercat871">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>
