@@ -10,7 +10,7 @@
   <Permissions>
     <Clear />
     <Break />
-    <Identity path="/Root/ContentTemplates/DemoBusinessWorkspace/Demo_Workspace/Groups/Owners">
+    <Identity path="/Root/ContentTemplates/DemoBusinessWorkspace/DemoBusiness_Workspace/Groups/Owners">
       <See>Allow</See>
       <Open>Allow</Open>
       <OpenMinor>Allow</OpenMinor>
@@ -27,12 +27,12 @@
       <RunApplication>Allow</RunApplication>
       <ManageListsAndWorkspaces>Allow</ManageListsAndWorkspaces>
     </Identity>
-    <Identity path="/Root/ContentTemplates/DemoBusinessWorkspace/Demo_Workspace/Groups/Members">
+    <Identity path="/Root/ContentTemplates/DemoBusinessWorkspace/DemoBusiness_Workspace/Groups/Members">
       <See>Allow</See>
       <Open>Allow</Open>
       <RunApplication>Allow</RunApplication>
     </Identity>
-    <Identity path="/Root/ContentTemplates/DemoBusinessWorkspace/Demo_Workspace/Groups/Visitors">
+    <Identity path="/Root/ContentTemplates/DemoBusinessWorkspace/DemoBusiness_Workspace/Groups/Visitors">
       <See>Allow</See>
       <Open>Allow</Open>
       <RunApplication>Allow</RunApplication>
