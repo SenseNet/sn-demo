@@ -2,7 +2,7 @@
   <DisplayName>Demo Business Workspace</DisplayName>
   <Description>Workspace type to demonstrate sensenet's capabilities in collaboration with custom ContentTypes and ContentTemplates</Description>
   <Icon>workspace</Icon>
-  <AllowedChildTypes>Folder,DocumentLibrary,ImageLibrary,EventList,MemoList,LinkList,TaskList</AllowedChildTypes>
+  <AllowedChildTypes>Article,Folder,DocumentLibrary,ImageLibrary,EventList,MemoList,LinkList,TaskList</AllowedChildTypes>
   <Fields>
     <Field name="Name" type="ShortText">
       <DisplayName>$Ctd-GenericContent,Name-DisplayName</DisplayName>
