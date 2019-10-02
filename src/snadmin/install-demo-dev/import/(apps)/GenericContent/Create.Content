@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>GenericODataApplication</ContentType>
+  <ContentName>Create</ContentName>
+  <Fields>
+    <Parameters><![CDATA[
+      bool onlyPublic
+    ]]></Parameters>
+    <DisplayName>Create</DisplayName>
+    <ActionTypeName><![CDATA[GenericODataOperation]]></ActionTypeName>
+    <IsModal>false</IsModal>
+    <Disabled>false</Disabled>
+    <Clear>false</Clear>
+    <Icon><![CDATA[Application]]></Icon>
+    <RequiredPermissions>AddNew</RequiredPermissions>
+    <DeepPermissionCheck>false</DeepPermissionCheck>
+    <Hidden>false</Hidden>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/BuiltIn/Portal/Everyone">
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>
