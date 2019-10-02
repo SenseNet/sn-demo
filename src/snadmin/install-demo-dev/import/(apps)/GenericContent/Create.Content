@@ -3,7 +3,7 @@
   <ContentType>GenericODataApplication</ContentType>
   <ContentName>Create</ContentName>
   <Fields>
-    <ClassName><![CDATA[SenseNet.Demo.Actions]]></ClassName
+    <ClassName><![CDATA[SenseNet.Demo.Actions]]></ClassName>
     <Parameters><![CDATA[
       bool onlyPublic
     ]]></Parameters>
