@@ -3,22 +3,19 @@
   <ContentType>GenericODataApplication</ContentType>
   <ContentName>Create</ContentName>
   <Fields>
-    <ClassName><![CDATA[SenseNet.Demo.Actions]]></ClassName>
-    <Parameters><![CDATA[
-      bool onlyPublic
+  <ClassName><![CDATA[SenseNet.Demo.Actions]]></ClassName>
+    <MethodName><![CDATA[RegisterUser]]></MethodName>
+    <Parameters><![CDATA[      
+      string email,
+	  string password,
     ]]></Parameters>
-    <DisplayName>Create</DisplayName>
-    <IsModal>false</IsModal>
-    <Disabled>false</Disabled>
-    <Clear>false</Clear>
+    <ActionTypeName><![CDATA[GenericODataOperation]]></ActionTypeName>
     <Icon><![CDATA[Application]]></Icon>
-    <RequiredPermissions>AddNew</RequiredPermissions>
-    <DeepPermissionCheck>false</DeepPermissionCheck>
-    <Hidden>false</Hidden>
+    <Scenario><![CDATA[]]></Scenario>
   </Fields>
   <Permissions>
     <Clear />
-    <Identity path="/Root/IMS/BuiltIn/Portal/Everyone">
+    <Identity path="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
       <RunApplication>Allow</RunApplication>
     </Identity>
   </Permissions>
