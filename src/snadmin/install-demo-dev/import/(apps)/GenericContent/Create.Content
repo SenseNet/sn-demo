@@ -15,7 +15,10 @@
   </Fields>
   <Permissions>
     <Clear />
-    <Identity path="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
+    <Identity path="/Root/IMS/BuiltIn/Portal/Everyone">
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+    <Identity path="/Root/IMS/BuiltIn/Portal/Visitor">
       <RunApplication>Allow</RunApplication>
     </Identity>
   </Permissions>
