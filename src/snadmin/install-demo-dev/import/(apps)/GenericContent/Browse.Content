@@ -3,7 +3,7 @@
   <ContentType>Application</ContentType>
   <ContentName>Browse</ContentName>
   <Fields>
-	<DisplayName><![CDATA[$Action,Browse]]></DisplayName>
+    <DisplayName><![CDATA[$Action,Browse]]></DisplayName>
     <ActionTypeName></ActionTypeName>
     <Icon><![CDATA[browse]]></Icon>
     <RequiredPermissions>Open</RequiredPermissions>
