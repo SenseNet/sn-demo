@@ -57,30 +57,30 @@
       <Import target="/Root" LogLevel="Verbose" source="import" />
 
       <!-- Add DMS related scenarios into the Scenario field. -->
-      <SetField name="Scenario" content="/Root/(apps)/User/Profile"><![CDATA[UserActions]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Logout"><![CDATA[UserActions,DMSUserActions]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Rename"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem,DMSGroupListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/MoveTo"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CopyTo"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Versions"><![CDATA[ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/SetPermissions"><![CDATA[WorkspaceActions;ListItem;ExploreActions]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Edit"><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;SimpleListItem;SimpleApprovableListItem,DMSListItem;DMSGroupListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/Folder/DeleteBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/Folder/CopyBatch"><![CDATA[DMSBatchActions]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/Folder/MoveBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/File/Preview"><![CDATA[ListItem;DMSListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/File/Browse"><![CDATA[ListItem;ExploreToolbar;DocumentDetails;DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/Browse"><![CDATA[ContextMenu;ListItem;ExploreToolbar;DocumentDetails;DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/File/Edit"><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;DocumentDetails;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/File/WopiOpenEdit"><![CDATA[DMSListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/File/WopiOpenView"><![CDATA[DMSListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Approve"><![CDATA[ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckIn"><![CDATA[ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckOut"><![CDATA[ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/ForceUndoCheckOut"><![CDATA[ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Publish"><![CDATA[ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/UndoCheckOut"><![CDATA[ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/Preview"><![CDATA[ListItem;DMSListItem;ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/WopiOpenEdit"><![CDATA[DMSListItem;ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/WopiOpenView"><![CDATA[DMSListItem;ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/Folder/CopyBatch"><![CDATA[DMSBatchActions]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/Folder/DeleteBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/Folder/MoveBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Approve"><![CDATA[ContextMenu;ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckIn"><![CDATA[ContextMenu;ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckOut"><![CDATA[ContextMenu;ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CopyTo"><![CDATA[ContextMenu;ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ContextMenu;ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Edit"><![CDATA[ContextMenu;WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;SimpleListItem;SimpleApprovableListItem,DMSListItem;DMSGroupListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/ForceUndoCheckOut"><![CDATA[ContextMenu;ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Logout"><![CDATA[UserActions,DMSUserActions]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/MoveTo"><![CDATA[ContextMenu;ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Publish"><![CDATA[ContextMenu;ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Rename"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem,DMSGroupListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/SetPermissions"><![CDATA[ContextMenu;WorkspaceActions;ListItem;ExploreActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/ShareContent"><![CDATA[DMSListItem]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/UndoCheckOut"><![CDATA[ContextMenu;ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Versions"><![CDATA[ContextMenu;ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/User/Profile"><![CDATA[UserActions]]></SetField>
       <!-- Set DMS related Index values in the Index field. -->
       <SetField name="Index" content="/Root/(apps)/Folder/DeleteBatch">2</SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/CopyBatch">3</SetField>

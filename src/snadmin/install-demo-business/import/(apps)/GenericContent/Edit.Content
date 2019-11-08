@@ -3,7 +3,7 @@
   <ContentType>Application</ContentType>
   <ContentName>Edit</ContentName>
   <Fields>
-	<DisplayName><![CDATA[$Action,Edit]]></DisplayName>
+    <DisplayName><![CDATA[$Action,Edit]]></DisplayName>
     <ActionTypeName></ActionTypeName>
     <Icon><![CDATA[edit]]></Icon>
     <RequiredPermissions>See;Open;OpenMinor;Save</RequiredPermissions>
