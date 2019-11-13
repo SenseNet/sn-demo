@@ -1,6 +1,6 @@
 <Package type='Install'>
   <Id>SenseNet.Demo</Id>
-  <Description>sensenet ECM Demo</Description>
+  <Description>sensenet Demo</Description>
   <ReleaseDate>2017-08-01</ReleaseDate>
   <Version>7.0.0</Version>
   <Dependencies>
