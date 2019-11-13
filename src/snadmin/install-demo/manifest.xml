@@ -50,7 +50,7 @@
 
       <EditJson Path="/Root/System/Settings/OfficeOnline.settings">
         {
-          OfficeOnlineUrl: "https://oos.sn.hu"
+          OfficeOnlineUrl: "https://oos.sensenet.com/"
         }
       </EditJson>
       

@@ -8,12 +8,12 @@
     "url": "https://github.com/SenseNet/sn-demo"
   },
   "keywords": [
-    "sensenet", "ecm"
+    "sensenet"
   ],
   "author": "SenseNet",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "your-repos-issues-url"
+    "url": "https://github.com/SenseNet/sn-demo/issues"
   },
   "homepage": "https://sensenet.com",
   "config": {
