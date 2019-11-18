@@ -204,10 +204,6 @@
       <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Developers" allow="AddNew;Save" />
       <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Administrators" allow="AddNew;Save" />
       <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Editors" allow="AddNew;Save" />
-
-      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Developers" deny="Save" localOnly="True" />
-      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Administrators" deny="Save" localOnly="True" />
-      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Editors" deny="Save" localOnly="True" />
       
       <SetPermissions path="/Root/Trash" identity="/Root/IMS/Public/Developers" allow="Save" />
       <SetPermissions path="/Root/Trash" identity="/Root/IMS/Public/Administrators" allow="Save" />
