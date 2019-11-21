@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+    <ContentType>Application</ContentType>
+    <ContentName>Preview</ContentName>
+    <Fields>
+        <DisplayName><![CDATA[$Action,Preview]]></DisplayName>
+        <Scenario><![CDATA[ListItem]]></Scenario>
+        <Icon><![CDATA[Page]]></Icon>
+        <RequiredPermissions>See;Preview</RequiredPermissions>
+    </Fields>
+    <Permissions>
+        <Clear />
+        <Identity path="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
+            <RunApplication>Allow</RunApplication>
+        </Identity>
+    </Permissions>
+</ContentMetaData>
