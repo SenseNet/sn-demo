@@ -7,6 +7,8 @@
     <Description><![CDATA[<p>Workspace for the Sales Department.</p>]]></Description>
     <IsActive>true</IsActive>
     <Hidden>false</Hidden>
+    <InheritableVersioningMode>3</InheritableVersioningMode>
+    <InheritableApprovingMode>2</InheritableApprovingMode>
   </Fields>
   <Permissions>
     <Clear />
