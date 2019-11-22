@@ -286,5 +286,4 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
-/src/snadmin/install-demo.zip
-/src/snadmin/install-demo-dev.zip
+/src/snadmin/*.zip
