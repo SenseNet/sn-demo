@@ -1,7 +1,7 @@
 <Package type='Install'>
-  <Id>SenseNet.Demo.Dev</Id>
-  <Description>sensenet Dev Demo</Description>
-  <ReleaseDate>2019-06-19</ReleaseDate>
+  <Id>SenseNet.Demo.Sales</Id>
+  <Description>sensenet Sales Demo</Description>
+  <ReleaseDate>2019-11-22</ReleaseDate>
   <Version>1.0.0</Version>
   <Dependencies>
     <Dependency id='SenseNet.Services' minVersion='7.6.1' />
@@ -19,24 +19,46 @@
     </Phase> -->
 
     <Phase>
-      <AppendXmlFragment file="web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']">
-        <Source>
-          <section name="contentNaming" type="System.Configuration.NameValueSectionHandler" />
-        </Source>
-      </AppendXmlFragment>
-      <AppendXmlFragment file="web.config" xpath="/configuration/sensenet">
-        <Source>
-          <contentNaming>
-            <add key="InvalidNameCharsPattern" value="[\$&amp;\+,/:;=?&quot;&lt;&gt;\#%{}|\\^~\[\u005D'’`\*\t\r\n]"/>
-          </contentNaming>
-        </Source>
-      </AppendXmlFragment>
+      <IfXmlNodeExists file="./web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']/section[@name='contentNaming']">
+        <Then>
+         <!-- Do nothing -->
+        </Then>
+        <Else>
+          <AppendXmlFragment file="web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']">
+            <Source>
+              <section name="contentNaming" type="System.Configuration.NameValueSectionHandler" />
+            </Source>
+          </AppendXmlFragment>
+        </Else>
+    </IfXmlNodeExists>
 
-      <AppendXmlFragment file="web.config" xpath="/configuration/sensenet/identityManagement">
-        <Source>
-          <add key="DefaultDomain" value="Public"/>
-        </Source>
-      </AppendXmlFragment>
+    <IfXmlNodeExists file="./web.config" xpath="/configuration/sensenet/contentNaming/add[@key='InvalidNameCharsPattern']">
+        <Then>
+         <!-- Do nothing -->
+        </Then>
+        <Else>
+         <AppendXmlFragment file="web.config" xpath="/configuration/sensenet">
+            <Source>
+              <contentNaming>
+                <add key="InvalidNameCharsPattern" value="[\$&amp;\+,/:;=?&quot;&lt;&gt;\#%{}|\\^~\[\u005D'’`\*\t\r\n]"/>
+              </contentNaming>
+            </Source>
+          </AppendXmlFragment>
+        </Else>
+    </IfXmlNodeExists>
+
+    <IfXmlNodeExists file="./web.config" xpath="/configuration/sensenet/identityManagement/add[@key='DefaultDomain']">
+        <Then>
+         <!-- Do nothing -->
+        </Then>
+        <Else>
+          <AppendXmlFragment file="web.config" xpath="/configuration/sensenet/identityManagement">
+            <Source>
+              <add key="DefaultDomain" value="Public"/>
+            </Source>
+          </AppendXmlFragment> 
+        </Else>
+    </IfXmlNodeExists>   
 
       <StartRepository startWorkflowEngine="false" />
 
