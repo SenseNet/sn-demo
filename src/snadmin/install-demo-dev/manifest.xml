@@ -108,15 +108,15 @@
       <SetField name="Index" content="/Root/System/Settings/UserProfile.settings">300</SetField>
       <SetField name="Index" content="/Root/System/Settings/TaskManagement.settings">400</SetField>
 
-      <SetPermissions path="/Root/System/Settings" identity="/Root/IMS/Public/Administrators" allow="Open" />
-      <SetPermissions path="/Root/System/Settings" identity="/Root/IMS/Public/Developers" allow="Open" />
+      <SetPermissions path="/Root/System/Settings" identity="/Root/IMS/Public/Administrators" allow="Open" localOnly="True" />
+      <SetPermissions path="/Root/System/Settings" identity="/Root/IMS/Public/Developers" allow="Open" localOnly="True" />
 
-      <SetPermissions path="/Root/System/Settings/Portal.settings" identity="/Root/IMS/Public/Administrators" allow="Save" />
-      <SetPermissions path="/Root/System/Settings/OAuth.settings" identity="/Root/IMS/Public/Administrators" allow="Save" />
-      <SetPermissions path="/Root/System/Settings/DocumentPreview.settings" identity="/Root/IMS/Public/Administrators" allow="Save" />
-      <SetPermissions path="/Root/System/Settings/OfficeOnline.settings" identity="/Root/IMS/Public/Administrators" allow="Save" />
-      <SetPermissions path="/Root/System/Settings/Indexing.settings" identity="/Root/IMS/Public/Administrators" allow="Save" />
-      <SetPermissions path="/Root/System/Settings/Sharing.settings" identity="/Root/IMS/Public/Administrators" allow="Save" />
+      <SetPermissions path="/Root/System/Settings/Portal.settings" identity="/Root/IMS/Public/Administrators" allow="Open,Save" />
+      <SetPermissions path="/Root/System/Settings/OAuth.settings" identity="/Root/IMS/Public/Administrators" allow="Open,Save" />
+      <SetPermissions path="/Root/System/Settings/DocumentPreview.settings" identity="/Root/IMS/Public/Administrators" allow="Open,Save" />
+      <SetPermissions path="/Root/System/Settings/OfficeOnline.settings" identity="/Root/IMS/Public/Administrators" allow="Open,Save" />
+      <SetPermissions path="/Root/System/Settings/Indexing.settings" identity="/Root/IMS/Public/Administrators" allow="Open,Save" />
+      <SetPermissions path="/Root/System/Settings/Sharing.settings" identity="/Root/IMS/Public/Administrators" allow="Open,Save" />
 
       <SetPermissions path="/Root/System/Settings/Portal.settings" identity="/Root/IMS/Public/Developers" allow="Save" />
       <SetPermissions path="/Root/System/Settings/OAuth.settings" identity="/Root/IMS/Public/Developers" allow="Save" />
@@ -144,6 +144,10 @@
 
       <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Settings/PortalSettings" identity="/Root/IMS/Public/Developers" allow="See,Open,RunApplication" />
       <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Settings/PortalSettings" identity="/Root/IMS/Public/Administrators" allow="See,Open,RunApplication" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Settings/IndexingSettings" identity="/Root/IMS/Public/Developers" allow="See,Open,RunApplication" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Settings/IndexingSettings" identity="/Root/IMS/Public/Administrators" allow="See,Open,RunApplication" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Settings/LoggingSettings" identity="/Root/IMS/Public/Developers" allow="See,Open,RunApplication" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Settings/LoggingSettings" identity="/Root/IMS/Public/Administrators" allow="See,Open,RunApplication" />
 
 
       <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/ImageLibrary" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
