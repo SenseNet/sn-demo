@@ -6,6 +6,7 @@
   <Fields>
     <Field name="DisplayName" type="ShortText">
       <DisplayName>$Ctd-EventList,DisplayName-DisplayName</DisplayName>
+      <Description>$Ctd-EventList,DisplayName-Description</Description>
     </Field>
     <Field name="Name" type="ShortText">
       <Configuration>
@@ -51,6 +52,22 @@
     </Field>
     <Field name="InheritableApprovingMode" type="InheritableApprovingMode">
       <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="AllowedChildTypes" type="AllowedChildTypes">
+      <DisplayName>$Ctd-GenericContent,AllowedChildTypes-DisplayName</DisplayName>
+      <Description>$Ctd-GenericContent,AllowedChildTypes-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="OwnerWhenVisitor" type="Reference">
+    <Configuration>
         <VisibleBrowse>Hide</VisibleBrowse>
         <VisibleEdit>Hide</VisibleEdit>
         <VisibleNew>Hide</VisibleNew>

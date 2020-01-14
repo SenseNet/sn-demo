@@ -265,10 +265,13 @@
           <value>Event List</value>
         </data>
         <data name="Description" xml:space="preserve">
-          <value>A special List type to store schedule Events.</value>
+          <value>A special container type to store calendar events.</value>
         </data>
         <data name="DisplayName-DisplayName" xml:space="preserve">
-          <value>Calendar name</value>
+          <value>Name</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Name of the calendar</value>
         </data>
         <data name="RegistrationFolder-DisplayName" xml:space="preserve">
           <value>Registration folder</value>
@@ -279,9 +282,12 @@
           <value>Eseménylista</value>
         </data>
         <data name="Description" xml:space="preserve">
-          <value>Speciális lista események tárolására.</value>
+          <value>Speciális tároló eseményekhez.</value>
         </data>
         <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Név</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
           <value>Eseménylista neve</value>
         </data>
         <data name="RegistrationFolder-DisplayName" xml:space="preserve">
