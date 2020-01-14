@@ -11,10 +11,16 @@
           <value>A content type for defining calendar events.</value>
         </data>
         <data name="DisplayName-DisplayName" xml:space="preserve">
-          <value>Event title</value>
+          <value>Title</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Title of the event</value>
         </data>
         <data name="Location-DisplayName" xml:space="preserve">
           <value>Location</value>
+        </data>
+        <data name="Location-Description" xml:space="preserve">
+          <value>The event will be held here</value>
         </data>
         <data name="StartDate-DisplayName" xml:space="preserve">
           <value>Start date</value>
@@ -126,14 +132,23 @@
         <data name="DisplayName" xml:space="preserve">
           <value>Esemény</value>
         </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Title of the event</value>
+        </data>
         <data name="Description" xml:space="preserve">
           <value>Esemény típusú tartalom.</value>
         </data>
         <data name="DisplayName-DisplayName" xml:space="preserve">
-          <value>Esemény címe</value>
+          <value>Cím</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Az esemény címe</value>
         </data>
         <data name="Location-DisplayName" xml:space="preserve">
           <value>Helyszín</value>
+        </data>
+        <data name="Location-Description" xml:space="preserve">
+          <value>Itt lesz megtartva az esemény.</value>
         </data>
         <data name="StartDate-DisplayName" xml:space="preserve">
           <value>Kezdődátum</value>
@@ -483,6 +498,9 @@
           <value>An Article Section is a kind folder that can contain articles and other Article Sections for grouping purposes.</value>
         </data>
         <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Title</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
           <value>Section title</value>
         </data>
       </Language>
