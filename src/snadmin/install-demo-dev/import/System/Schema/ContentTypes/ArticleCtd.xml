@@ -5,10 +5,29 @@
   <Fields>
     <Field name="DisplayName" type="ShortText">
       <Description>$Ctd-Article,DisplayName-Description</Description>
+      <Configuration>
+        <FieldIndex>0</FieldIndex>
+      </Configuration>
+    </Field>
+    <Field name="Name" type="Name">
+      <Description>$Ctd-GenericContent,Name-DisplayName</Description>
+      <Configuration>
+        <FieldIndex>1</FieldIndex>
+      </Configuration>
     </Field>
     <Field name="Subtitle" type="ShortText">
       <DisplayName>$Ctd-Article,Subtitle-DisplayName</DisplayName>
       <Description>$Ctd-Article,Subtitle-Description</Description>
+      <Configuration>
+        <FieldIndex>2</FieldIndex>
+      </Configuration>
+    </Field>
+    <Field name="Author" type="ShortText">
+      <DisplayName>$Ctd-Article,Author-DisplayName</DisplayName>
+      <Description>$Ctd-Article,Author-DisplayName</Description>
+      <Configuration>
+        <FieldIndex>3</FieldIndex>
+      </Configuration>
     </Field>
     <Field name="Lead" type="LongText">
       <DisplayName>$Ctd-Article,Lead-DisplayName</DisplayName>
@@ -18,6 +37,7 @@
       </Indexing>
       <Configuration>
         <ControlHint>sn:RichText</ControlHint>
+        <FieldIndex>4</FieldIndex>
       </Configuration>
     </Field>
     <Field name="Body" type="LongText">
@@ -28,11 +48,16 @@
       </Indexing>
       <Configuration>
         <ControlHint>sn:RichText</ControlHint>
+        <FieldIndex>5</FieldIndex>
       </Configuration>
     </Field>
     <Field name="Pinned" type="Boolean">
       <DisplayName>$Ctd-Article,Pinned-DisplayName</DisplayName>
       <Description>$Ctd-Article,Pinned-Description</Description>
+      <Configuration>
+        <ControlHint>sn:RichText</ControlHint>
+        <FieldIndex>6</FieldIndex>
+      </Configuration>
     </Field>
     <Field name="Keywords" type="LongText">
       <DisplayName>$Ctd-Article,Keywords-DisplayName</DisplayName>
@@ -40,10 +65,10 @@
       <Indexing>
         <Analyzer>Whitespace</Analyzer>
       </Indexing>
-    </Field>
-    <Field name="Author" type="ShortText">
-      <DisplayName>$Ctd-Article,Author-DisplayName</DisplayName>
-      <Description>$Ctd-Article,Author-DisplayName</Description>
+      <Configuration>
+        <ControlHint>sn:Textarea</ControlHint>
+        <FieldIndex>7</FieldIndex>
+      </Configuration>
     </Field>
     <Field name="ImageRef" type="Reference">
       <DisplayName>$Ctd-Article,ImageRef-DisplayName</DisplayName>
@@ -71,6 +96,35 @@
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
         <ControlHint>sn:Image</ControlHint>
+        <FieldIndex>8</FieldIndex>
+      </Configuration>
+    </Field>
+    <Field name="Description" type="LongText">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Version" type="Version">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="IsTaggable" type="Boolean">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Tags" type="LongText">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
       </Configuration>
     </Field>
   </Fields>

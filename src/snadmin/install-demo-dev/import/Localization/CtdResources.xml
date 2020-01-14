@@ -358,46 +358,49 @@
           <value>Article</value>
         </data>
         <data name="Description" xml:space="preserve">
-          <value>You can store and display textual information on the site.</value>
+          <value>Articles are generally used for information that is updated more frequently and often cross-referenced and categorized.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Title</value>
         </data>
         <data name="DisplayName-Description" xml:space="preserve">
           <value>The headline of the article.</value>
         </data>
         <data name="Subtitle-DisplayName" xml:space="preserve">
-          <value>Subtitle</value>
+          <value>Subtitle of the article</value>
         </data>
         <data name="Subtitle-Description" xml:space="preserve">
-          <value>A secondary headline. Displayed in the article pages.</value>
+          <value>A secondary headline.</value>
         </data>
         <data name="Lead-DisplayName" xml:space="preserve">
           <value>Lead</value>
         </data>
         <data name="Lead-Description" xml:space="preserve">
-          <value>Short lead of article.</value>
+          <value>Short lead of the article.</value>
         </data>
         <data name="Body-DisplayName" xml:space="preserve">
           <value>Body</value>
         </data>
         <data name="Body-Description" xml:space="preserve">
-          <value>Body.</value>
+          <value>The main part of the article.</value>
         </data>
         <data name="Pinned-DisplayName" xml:space="preserve">
-          <value>Highlights</value>
+          <value>Pinned</value>
         </data>
         <data name="Pinned-Description" xml:space="preserve">
-          <value>Content is always showing on the main page's [Highlights] collection.</value>
+          <value>Pinned content is could be used as highlighted.</value>
         </data>
         <data name="Keywords-DisplayName" xml:space="preserve">
           <value>Keywords</value>
         </data>
         <data name="Keywords-Description" xml:space="preserve">
-          <value>Use the portal's builtin search functionality to search for articles with specific keywords ie.: Keywords:mykeyword.</value>
+          <value>You can use the builtin search functionality to search for articles with specific keywords ie.: Keywords:mykeyword.</value>
         </data>
         <data name="Author-DisplayName" xml:space="preserve">
           <value>Author</value>
         </data>
         <data name="Author-Description" xml:space="preserve">
-          <value>The name of the author (format: Firstname Lastname or Lastname, Firstname).</value>
+          <value>The name of the author.</value>
         </data>
         <data name="ImageRef-DisplayName" xml:space="preserve">
           <value>Cover image (reference)</value>
@@ -406,7 +409,7 @@
           <value>Cover image (binarydata)</value>
         </data>
         <data name="Image-DisplayName" xml:space="preserve">
-          <value>Cover image (composite)</value>
+          <value>Cover image</value>
         </data>
       </Language>
       <Language cultureName="hu">
@@ -416,6 +419,9 @@
         <data name="Description" xml:space="preserve">
           <value>Szöveges tartalmak tárolására és megjelenítésére.</value>
         </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Cím</value>
+        </data>
         <data name="DisplayName-Description" xml:space="preserve">
           <value>A cikk címe.</value>
         </data>
@@ -423,7 +429,7 @@
           <value>Alcím</value>
         </data>
         <data name="Subtitle-Description" xml:space="preserve">
-          <value>Cikkoldalakon megjelenő alcím.</value>
+          <value>A cikk alcíme.</value>
         </data>
         <data name="Lead-DisplayName" xml:space="preserve">
           <value>Bevezető</value>
@@ -435,19 +441,19 @@
           <value>Törzsszöveg</value>
         </data>
         <data name="Body-Description" xml:space="preserve">
-          <value>Törzsszöveg.</value>
+          <value>A cikk tartalma.</value>
         </data>
         <data name="Pinned-DisplayName" xml:space="preserve">
           <value>Kiemelt</value>
         </data>
         <data name="Pinned-Description" xml:space="preserve">
-          <value>A tartalom mindig látszik a főoldal kiemelt hírei között.</value>
+          <value>A kiemelt tulajdonság keresésben lekérdezésekben használható.</value>
         </data>
         <data name="Keywords-DisplayName" xml:space="preserve">
           <value>Kulcsszavak</value>
         </data>
         <data name="Keywords-Description" xml:space="preserve">
-          <value>A portál keresőjében kereshet a kulcsszavak között is. Pl.: Keywords:kulcsszó.</value>
+          <value>A portál keresőjében kereshet a kulcsszavak között is.</value>
         </data>
         <data name="Author-DisplayName" xml:space="preserve">
           <value>Szerző</value>
@@ -462,7 +468,7 @@
           <value>Bevezető kép (csatolva)</value>
         </data>
         <data name="Image-DisplayName" xml:space="preserve">
-          <value>Bevezető kép (összevont)</value>
+          <value>Bevezető kép</value>
         </data>
       </Language>
     </Languages>
@@ -474,7 +480,7 @@
           <value>Article Section</value>
         </data>
         <data name="Description" xml:space="preserve">
-          <value>An Article Section is a kind folder that can contain articles and other Article Sections with a default presentation.</value>
+          <value>An Article Section is a kind folder that can contain articles and other Article Sections for grouping purposes.</value>
         </data>
         <data name="DisplayName-DisplayName" xml:space="preserve">
           <value>Section title</value>
@@ -489,6 +495,20 @@
         </data>
         <data name="DisplayName-DisplayName" xml:space="preserve">
           <value>Rovat címe</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-GenericContent">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Name" xml:space="preserve">
+          <value>Urlname</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="Name" xml:space="preserve">
+          <value>Urlnév</value>
         </data>
       </Language>
     </Languages>
