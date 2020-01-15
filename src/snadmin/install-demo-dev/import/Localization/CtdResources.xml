@@ -306,7 +306,7 @@
           <value>A link that navigates to a URL.</value>
         </data>
         <data name="DisplayName-DisplayName" xml:space="preserve">
-          <value>Name</value>
+          <value>Text</value>
         </data>
         <data name="DisplayName-Description" xml:space="preserve">
           <value>This will be the text of the link.</value>
@@ -332,7 +332,7 @@
           <value>Hivatkozás, ami egy URL-re navigál.</value>
         </data>
         <data name="DisplayName-DisplayName" xml:space="preserve">
-          <value>Név</value>
+          <value>Szöveg</value>
         </data>
         <data name="DisplayName-Description" xml:space="preserve">
           <value>Ezzel a szöveggel fog megjelenni a link.</value>
