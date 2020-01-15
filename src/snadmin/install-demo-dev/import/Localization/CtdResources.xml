@@ -387,6 +387,9 @@
   <ResourceClass name="Ctd-DocumentLibrary">
     <Languages>
       <Language cultureName="en">
+       <data name="Description" xml:space="preserve">
+          <value>A container type for storing and organizing documents.</value>
+        </data>
          <data name="DisplayName-DisplayName" xml:space="preserve">
           <value>Name</value>
         </data>
@@ -395,11 +398,40 @@
         </data>
       </Language>
       <Language cultureName="hu">
+      <data name="Description" xml:space="preserve">
+          <value>Tároló dokumentumok tárolására és rendszerezésére.</value>
+        </data>
         <data name="DisplayName-DisplayName" xml:space="preserve">
           <value>Név</value>
         </data>
         <data name="DisplayName-Description" xml:space="preserve">
           <value>A dokumentumtár neve</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ImageLibrary">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Description" xml:space="preserve">
+          <value>A container type for storing images.</value>
+        </data>
+         <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Name</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Name of the Image Gallery</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+      <data name="Description" xml:space="preserve">
+          <value>Képek tárolására.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Név</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>A képgaléria neve</value>
         </data>
       </Language>
     </Languages>
