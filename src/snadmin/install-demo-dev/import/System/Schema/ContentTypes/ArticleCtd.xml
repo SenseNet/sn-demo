@@ -4,13 +4,15 @@
   <Icon>WebContent</Icon>
   <Fields>
     <Field name="DisplayName" type="ShortText">
+      <DisplayName>$Ctd-Article,DisplayName-DisplayName</DisplayName>
       <Description>$Ctd-Article,DisplayName-Description</Description>
       <Configuration>
         <FieldIndex>0</FieldIndex>
       </Configuration>
     </Field>
-    <Field name="Name" type="Name">
-      <Description>$Ctd-GenericContent,Name-DisplayName</Description>
+    <Field name="Name" type="ShortText">
+      <DisplayName>$Ctd-GenericContent,Name-DisplayName</DisplayName>
+      <Description>$Ctd-GenericContent,Name-Description</Description>
       <Configuration>
         <FieldIndex>1</FieldIndex>
       </Configuration>
@@ -24,7 +26,7 @@
     </Field>
     <Field name="Author" type="ShortText">
       <DisplayName>$Ctd-Article,Author-DisplayName</DisplayName>
-      <Description>$Ctd-Article,Author-DisplayName</Description>
+      <Description>$Ctd-Article,Author-Description</Description>
       <Configuration>
         <FieldIndex>3</FieldIndex>
       </Configuration>
@@ -55,7 +57,6 @@
       <DisplayName>$Ctd-Article,Pinned-DisplayName</DisplayName>
       <Description>$Ctd-Article,Pinned-Description</Description>
       <Configuration>
-        <ControlHint>sn:RichText</ControlHint>
         <FieldIndex>6</FieldIndex>
       </Configuration>
     </Field>
