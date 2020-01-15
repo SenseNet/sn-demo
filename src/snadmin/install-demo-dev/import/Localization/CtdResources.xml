@@ -384,6 +384,26 @@
       </Language>
     </Languages>
   </ResourceClass>
+  <ResourceClass name="Ctd-DocumentLibrary">
+    <Languages>
+      <Language cultureName="en">
+         <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Name</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Name of the Document Library</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Név</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>A dokumentumtár neve</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
   <ResourceClass name="Ctd-Article">
     <Languages>
       <Language cultureName="en">
@@ -601,6 +621,20 @@
         </data>
         <data name="Search" xml:space="preserve">
           <value>Keresés</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-GenericContent">
+    <Languages>
+      <Language cultureName="en">
+         <data name="InheritableVersioningMode-DisplayName" xml:space="preserve">
+          <value>Versioning mode</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="InheritableVersioningMode-DisplayName" xml:space="preserve">
+          <value>Verziózás</value>
         </data>
       </Language>
     </Languages>
