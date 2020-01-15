@@ -361,6 +361,12 @@
         <data name="Description" xml:space="preserve">
           <value>A container type for storing Links.</value>
         </data>
+         <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Name</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Name of the Link List</value>
+        </data>
       </Language>
       <Language cultureName="hu">
         <data name="DisplayName" xml:space="preserve">
@@ -368,6 +374,12 @@
         </data>
         <data name="Description" xml:space="preserve">
           <value>Tároló hivatkozásoknak.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Név</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>A link lista neve</value>
         </data>
       </Language>
     </Languages>
