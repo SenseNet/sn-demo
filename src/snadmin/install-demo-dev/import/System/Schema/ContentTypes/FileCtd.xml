@@ -17,6 +17,7 @@
       </Configuration>
     </Field>
     <Field name="Name" type="ShortText">
+    <DisplayName>$Ctd-File,Name-DisplayName</DisplayName>
       <Configuration>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
@@ -99,9 +100,9 @@
     </Field>
     <Field name="Description" type="LongText">
       <Configuration>
-        <VisibleBrowse>Show</VisibleBrowse>
-        <VisibleEdit>Show</VisibleEdit>
-        <VisibleNew>Show</VisibleNew>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
       </Configuration>
     </Field>
     <Field name="Shapes" type="LongText">

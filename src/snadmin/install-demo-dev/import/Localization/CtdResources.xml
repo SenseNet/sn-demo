@@ -638,5 +638,18 @@
         </data>
       </Language>
     </Languages>
+    <ResourceClass name="Ctd-File">
+    <Languages>
+      <Language cultureName="en">
+         <data name="Name-DisplayName" xml:space="preserve">
+          <value>Filename</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="Name-DisplayName" xml:space="preserve">
+          <value>Filenév</value>
+        </data>
+      </Language>
+    </Languages>
   </ResourceClass>
 </Resources>
