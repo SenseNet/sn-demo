@@ -436,6 +436,26 @@
       </Language>
     </Languages>
   </ResourceClass>
+  <ResourceClass name="Ctd-Image">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Description" xml:space="preserve">
+          <value>A special file type for images.</value>
+        </data>
+         <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Filename</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+      <data name="Description" xml:space="preserve">
+          <value>Speciális fájl típus képek tárolásához.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Filenév</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
   <ResourceClass name="Ctd-Article">
     <Languages>
       <Language cultureName="en">
