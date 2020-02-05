@@ -55,8 +55,9 @@
       <EditJson Path="/Root/System/Settings/Portal.settings">
         {
           "AllowedOriginDomains": [
-		    "localhost",
-		    "localhost:8080",
+		"localhost",
+		"localhost:8080",
+	      	"*.csb.app",
     		"*.sensenet.com",
     		"*.netlify.com"
   		]
