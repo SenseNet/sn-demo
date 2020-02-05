@@ -198,9 +198,9 @@
       <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Developers" allow="AddNew" />
       <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Administrators" allow="AddNew" />
 
-      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Developers" allow="AddNew" />
-      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Administrators" allow="AddNew" />
-      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Editors" allow="AddNew" />
+      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Developers" allow="AddNew;Save;ManageListsAndWorkspaces;Delete;Publish;ForceCheckin;RecallOldVersion;SeePermissions;SetPermissions;" />
+      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Administrators" allow="AddNew;Save;ManageListsAndWorkspaces;Delete;Publish;ForceCheckin;Approve;RecallOldVersion;SeePermissions;SetPermissions;TakeOwnership" />
+      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Editors" allow="AddNew;Save;ManageListsAndWorkspaces;Delete;Publish" />
 
       <SetPermissions path="/Root/Trash" identity="/Root/IMS/Public/Developers" allow="Save" />
       <SetPermissions path="/Root/Trash" identity="/Root/IMS/Public/Administrators" allow="Save" />
