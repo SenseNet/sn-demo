@@ -5,7 +5,8 @@
   <Fields>
     <ClassName><![CDATA[SenseNet.Demo.Actions]]></ClassName>
     <MethodName><![CDATA[RegisterUser]]></MethodName>
-    <Parameters><![CDATA[      
+    <Parameters><![CDATA[
+      string username,   
       string email,
 	  string password,
     ]]></Parameters>
