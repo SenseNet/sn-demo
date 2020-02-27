@@ -11,7 +11,7 @@ namespace SenseNet.Demo
         public static Content RegisterUser(Content content, string username, string email, string password)
         {
             if (string.IsNullOrEmpty(username))
-                throw new ArgumentNullException(nameof(userame));
+                throw new ArgumentNullException(nameof(username));
             if (string.IsNullOrEmpty(email))
                 throw new ArgumentNullException(nameof(email));
             if (string.IsNullOrEmpty(password))
