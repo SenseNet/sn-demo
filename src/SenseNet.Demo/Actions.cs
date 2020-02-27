@@ -21,7 +21,7 @@ namespace SenseNet.Demo
             {
                 //TODO: determine custom user content type
                 var user = Content.CreateNew("User", content.ContentHandler, username);
-                user["UserName"] = username;
+                user["LoginName"] = username;
                 user["Email"] = email;
                 user["Enabled"] = true;
                 user["Password"] = password;
