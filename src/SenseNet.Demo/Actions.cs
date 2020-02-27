@@ -8,8 +8,10 @@ namespace SenseNet.Demo
     public static class Actions
     {
         [ODataAction]
-        public static Content RegisterUser(Content content, string email, string password)
+        public static Content RegisterUser(Content content, string username, string email, string password)
         {
+            if (string.IsNullOrEmpty(username))
+                throw new ArgumentNullException(nameof(userame));
             if (string.IsNullOrEmpty(email))
                 throw new ArgumentNullException(nameof(email));
             if (string.IsNullOrEmpty(password))
@@ -18,7 +20,8 @@ namespace SenseNet.Demo
             using (new SystemAccount())
             {
                 //TODO: determine custom user content type
-                var user = Content.CreateNew("User", content.ContentHandler, email);
+                var user = Content.CreateNew("User", content.ContentHandler, username);
+                user["LoginName"] = username;
                 user["Email"] = email;
                 user["Enabled"] = true;
                 user["Password"] = password;
