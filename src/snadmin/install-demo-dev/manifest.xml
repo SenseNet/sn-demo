@@ -1,7 +1,7 @@
 <Package type='Install'>
   <Id>SenseNet.Demo.Dev</Id>
   <Description>sensenet Dev Demo</Description>
-  <ReleaseDate>2019-06-19</ReleaseDate>
+  <ReleaseDate>2020-02-28</ReleaseDate>
   <Version>1.0.0</Version>
   <Dependencies>
     <Dependency id='SenseNet.Services' minVersion='7.6.1' />
@@ -9,14 +9,14 @@
   <Parameters>
   </Parameters>
   <Steps>
-    <!-- <Phase>
-      <Copy targetDirectory='.' source='bin' /> -->
+    <Phase>
+      <Copy targetDirectory='.' source='bin' />
 
     <!-- Enable this in the first phase so that it takes effect in the second: demo user profiles should be created during import. -->
-    <!-- <EditXmlNodes file="Tools\SnAdminRuntime.exe.config" xpath="/configuration/sensenet/identityManagement/add[@key='UserProfilesEnabled']/@value">
+      <!-- <EditXmlNodes file="Tools\SnAdminRuntime.exe.config" xpath="/configuration/sensenet/identityManagement/add[@key='UserProfilesEnabled']/@value">
         <Source>true</Source>
-      </EditXmlNodes>
-    </Phase> -->
+      </EditXmlNodes> -->
+    </Phase> 
 
     <Phase>
       <AppendXmlFragment file="web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']">
