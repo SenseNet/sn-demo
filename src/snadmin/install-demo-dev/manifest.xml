@@ -86,15 +86,16 @@
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Browse"><![CDATA[ContextMenu]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckIn"><![CDATA[ContextMenu]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckOut"><![CDATA[ContextMenu]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CopyTo"><![CDATA[ContextMenu]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CopyTo"><![CDATA[ContextMenu,BatchActions]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ContextMenu,BatchActions]]></SetField>
       <!-- This is only available in webpages package -->
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Edit"><![CDATA[ContextMenu]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/ForceUndoCheckOut"><![CDATA[ContextMenu]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/MoveTo"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/MoveTo"><![CDATA[ContextMenu,BatchActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Publish"><![CDATA[ContextMenu]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/SetPermissions"><![CDATA[ContextMenu]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/UndoCheckOut"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Share"><![CDATA[ContextMenu,BatchActions]]></SetField>
       <!-- This is only available in webpages package -->
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Versions"><![CDATA[ContextMenu]]></SetField>
 
