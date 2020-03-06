@@ -80,7 +80,6 @@
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/ShareContent"><![CDATA[DMSListItem]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/UndoCheckOut"><![CDATA[ContextMenu;ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Versions"><![CDATA[ContextMenu;ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/User/Profile"><![CDATA[UserActions]]></SetField>
       <!-- Set DMS related Index values in the Index field. -->
       <SetField name="Index" content="/Root/(apps)/Folder/DeleteBatch">2</SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/CopyBatch">3</SetField>
