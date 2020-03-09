@@ -65,6 +65,7 @@
       <SetField name="Scenario" content="/Root/(apps)/Folder/CopyBatch"><![CDATA[DMSBatchActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/DeleteBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/Folder/MoveBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/Folder/Add"><![CDATA[New]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/Approve"><![CDATA[ContextMenu;ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckIn"><![CDATA[ContextMenu;ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
       <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckOut"><![CDATA[ContextMenu;ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
