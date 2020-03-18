@@ -39,103 +39,213 @@
 
       <StartRepository startWorkflowEngine="false" />
 
-      <EditJson Path="/Root/System/Settings/UserProfile.settings">
-        {
-          User: {
-            ProfileType: "DemoProfile",
-            ProfilesTarget: "/Root"
-          }
-        }
-      </EditJson>
+      <!-- Set the default oos server url-->
 
       <EditJson Path="/Root/System/Settings/OfficeOnline.settings">
         {
           OfficeOnlineUrl: "https://oos.sensenet.com/"
         }
       </EditJson>
+
+      <!-- Set max preview count -->
+      
+      <EditJson Path="/Root/System/Settings/DocumentPreview.settings">
+        {
+          MaxPreviewCount: 2
+        }
+      </EditJson>
+
+      <!-- Set allowed origins -->
+
+      <EditJson Path="/Root/System/Settings/Portal.settings">
+        {
+          "AllowedOriginDomains": [
+            "*.csb.app",
+            "localhost",
+            "localhost:8080",
+            "*.sensenet.com",
+            "*.netlify.com"
+  		    ]
+        }
+      </EditJson>
+
       
       <Import target="/Root" LogLevel="Verbose" source="import" />
 
-      <!-- Add DMS related scenarios into the Scenario field. -->
-      <SetField name="Scenario" content="/Root/(apps)/File/Browse"><![CDATA[ContextMenu;ListItem;ExploreToolbar;DocumentDetails;DMSListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/File/Edit"><![CDATA[WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;DocumentDetails;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/File/Preview"><![CDATA[ListItem;DMSListItem;ContextMenu]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/File/WopiOpenEdit"><![CDATA[DMSListItem;ContextMenu]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/File/WopiOpenView"><![CDATA[DMSListItem;ContextMenu]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/Folder/CopyBatch"><![CDATA[DMSBatchActions]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/Folder/DeleteBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/Folder/MoveBatch"><![CDATA[GridToolbar;DMSBatchActions]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/Folder/Add"><![CDATA[New]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Approve"><![CDATA[ContextMenu;ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckIn"><![CDATA[ContextMenu;ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckOut"><![CDATA[ContextMenu;ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CopyTo"><![CDATA[ContextMenu;ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ContextMenu;ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Edit"><![CDATA[ContextMenu;WorkspaceActions;ListItem;ExploreToolbar;ManageViewsListItem;SimpleListItem;SimpleApprovableListItem,DMSListItem;DMSGroupListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/ForceUndoCheckOut"><![CDATA[ContextMenu;ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Logout"><![CDATA[UserActions,DMSUserActions]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/MoveTo"><![CDATA[ContextMenu;ListItem;ExploreActions;ManageViewsListItem,DMSListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Publish"><![CDATA[ContextMenu;ListItem;ExploreActions;SimpleApprovableListItem;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Rename"><![CDATA[ListItem;ExploreActions;ManageViewsListItem,DMSListItem,DMSGroupListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/SetPermissions"><![CDATA[ContextMenu;WorkspaceActions;ListItem;ExploreActions]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/ShareContent"><![CDATA[DMSListItem]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/UndoCheckOut"><![CDATA[ContextMenu;ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
-      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Versions"><![CDATA[ContextMenu;ListItem;ExploreActions;DMSListItem;DMSBreadcrumb]]></SetField>
-      <!-- Set DMS related Index values in the Index field. -->
+      <!-- Allow RunApplication for Visitors and Everyone on the Login action -->
+
+      <SetPermissions path="/Root/(apps)/GenericContent/Login" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/GenericContent/Login" identity="/Root/IMS/BuiltIn/Portal/Visitor" allow="RunApplication" />
+      
+      <!-- Set scenario field for context menu and batch action menu-->
+
+      <!-- This is not installed with preview by default only if I choose to install with webpages -->
+      <SetField name="Scenario" content="/Root/(apps)/File/Preview"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/WopiOpenEdit"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/WopiOpenView"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Approve"><![CDATA[ContextMenu]]></SetField>
+      <!-- This is only available in webpages package -->
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Browse"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckIn"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckOut"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CopyTo"><![CDATA[ContextMenu,BatchActions]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ContextMenu,BatchActions]]></SetField>
+      <!-- This is only available in webpages package -->
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Edit"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/ForceUndoCheckOut"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/MoveTo"><![CDATA[ContextMenu,BatchActions]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Publish"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/SetPermissions"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/UndoCheckOut"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Share"><![CDATA[ContextMenu,BatchActions]]></SetField>
+      <!-- This is only available in webpages package -->
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Versions"><![CDATA[ContextMenu]]></SetField>
+
+      <!-- Set Index values in the Index field on actions and settings for ordering purposes. -->
       <SetField name="Index" content="/Root/(apps)/Folder/DeleteBatch">2</SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/CopyBatch">3</SetField>
       <SetField name="Index" content="/Root/(apps)/Folder/MoveBatch">4</SetField>
       <SetField name="Index" content="/Root/(apps)/GenericContent/Edit">3950</SetField>
-      <SetField name="Index" content="/Root/(apps)/GenericContent/ShareContent">3900</SetField>
       <SetField name="Index" content="/Root/(apps)/File/Browse">20</SetField>
       <SetField name="Index" content="/Root/(apps)/File/Edit">3950</SetField>
-      <!-- Set DMS related Icon pathes in the Icon field. -->
+
+      <SetField name="Index" content="/Root/System/Settings/Portal.settings">10</SetField>
+      <SetField name="Index" content="/Root/System/Settings/OAuth.settings">20</SetField>
+      <SetField name="Index" content="/Root/System/Settings/DocumentPreview.settings">30</SetField>
+      <SetField name="Index" content="/Root/System/Settings/OfficeOnline.settings">40</SetField>
+      <SetField name="Index" content="/Root/System/Settings/Indexing.settings">50</SetField>
+      <SetField name="Index" content="/Root/System/Settings/Sharing.settings">60</SetField>
+      <SetField name="Index" content="/Root/System/Settings/Logging.settings">100</SetField>
+      <SetField name="Index" content="/Root/System/Settings/MailProcessor.settings">200</SetField>
+      <SetField name="Index" content="/Root/System/Settings/UserProfile.settings">300</SetField>
+      <SetField name="Index" content="/Root/System/Settings/TaskManagement.settings">400</SetField>
+
+      <!-- Set Icon pathes in the Icon field. -->
       <SetField name="Icon" content="/Root/(apps)/File/Browse">download</SetField>
       <SetField name="Icon" content="/Root/(apps)/File/Preview">preview</SetField>
-      <SetField name="Icon" content="/Root/(apps)/User/Edit">settings</SetField>
       <SetField name="Icon" content="/Root/(apps)/File/WopiOpenEdit">office</SetField>
       <SetField name="Icon" content="/Root/(apps)/File/WopiOpenView">office</SetField>
-      <!-- Change DMS related DisplayNames in ContentTemplates. -->
-      <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty document.docx">document</SetField>
-      <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty presentation.pptx">slide</SetField>
-      <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty text document.txt">text</SetField>
-      <SetField name="DisplayName" content="/Root/ContentTemplates/DemoFile/Empty workbook.xlsx">sheet</SetField>
-      
+
       <AddMembers group="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
       /Root/IMS/Public/alba
       </AddMembers>
-      <AddMembers group="/Root/IMS/BuiltIn/Portal/Administrators">
-      /Root/IMS/Public/DMSAdmins
-      </AddMembers>
 
-      <SetPermissions
-        path="/Root/System/Schema/ContentTypes/GenericContent/File/DemoFile"
-        identity="/Root/IMS/BuiltIn/Portal/Everyone"
-        allow="See"
-        />
+      <!-- Set permissions on settings -->
 
-      <SetField name="Sharing" content="/Root/Profiles/Public/alba/Document_Library/Sample-document.docx"><![CDATA[
-        [{
-            "Id": "f75b487f-fdb4-4cd0-9d20-82b0f42a9486",
-            "Token": "businesscat@sensenet.com",
-            "Identity": "/Root/IMS/Public/businesscat",
-            "Mode": "Private",
-            "Level": "Open",
-            "CreatorId": 1,
-            "ShareDate": "2018-10-16T00:40:15Z"
-        }]
-      ]]></SetField>
-      <SetField name="Sharing" content="/Root/Profiles/Public/businesscat/Document_Library/Sample-document.docx"><![CDATA[
-        [{
-            "Id": "86c2d1f6-9a05-4923-bd38-9defee4b3b5f",
-            "Token": "alba@sensenet.com",
-            "Identity": "/Root/IMS/Public/alba",
-            "Mode": "Private",
-            "Level": "Open",
-            "CreatorId": 1,
-            "ShareDate": "2018-10-16T00:40:15Z"
-        }]
-      ]]></SetField>
+      <SetPermissions path="/Root/System/Settings" identity="/Root/IMS/Public/Administrators" allow="Open" localOnly="True" />
+      <SetPermissions path="/Root/System/Settings" identity="/Root/IMS/Public/Developers" allow="Open" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Settings/Portal.settings" identity="/Root/IMS/Public/Administrators" allow="Open,Save" />
+      <SetPermissions path="/Root/System/Settings/OAuth.settings" identity="/Root/IMS/Public/Administrators" allow="Open,Save" />
+      <SetPermissions path="/Root/System/Settings/DocumentPreview.settings" identity="/Root/IMS/Public/Administrators" allow="Open,Save" />
+      <SetPermissions path="/Root/System/Settings/OfficeOnline.settings" identity="/Root/IMS/Public/Administrators" allow="Open,Save" />
+      <SetPermissions path="/Root/System/Settings/Indexing.settings" identity="/Root/IMS/Public/Administrators" allow="Open,Save" />
+      <SetPermissions path="/Root/System/Settings/Sharing.settings" identity="/Root/IMS/Public/Administrators" allow="Open,Save" />
+
+      <SetPermissions path="/Root/System/Settings/Portal.settings" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Settings/OAuth.settings" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Settings/DocumentPreview.settings" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Settings/OfficeOnline.settings" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Settings/Indexing.settings" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/System/Settings/Sharing.settings" identity="/Root/IMS/Public/Developers" allow="Save" />
+
+      <!-- set ctd permissions for built-in groups -->
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ContentLink" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ContentLink" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/User" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/User" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Image" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Image" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Settings/PortalSettings" identity="/Root/IMS/Public/Developers" allow="See,Open,RunApplication" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Settings/PortalSettings" identity="/Root/IMS/Public/Administrators" allow="See,Open,RunApplication" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Settings/IndexingSettings" identity="/Root/IMS/Public/Developers" allow="See,Open,RunApplication" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Settings/IndexingSettings" identity="/Root/IMS/Public/Administrators" allow="See,Open,RunApplication" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Settings/LoggingSettings" identity="/Root/IMS/Public/Developers" allow="See,Open,RunApplication" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/File/Settings/LoggingSettings" identity="/Root/IMS/Public/Administrators" allow="See,Open,RunApplication" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/ImageLibrary" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/ImageLibrary" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/DocumentLibrary" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/Library/DocumentLibrary" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/EventList" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/EventList" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/LinkList" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/LinkList" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/MemoList" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/MemoList" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/TaskList" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ContentList/ItemList/TaskList" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/SmartFolder" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/SmartFolder" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/CalendarEvent" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/CalendarEvent" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Link" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Link" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Memo" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Memo" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Task" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/Task" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/OrganizationalUnit" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/OrganizationalUnit" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ArticleSection" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ArticleSection" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/WebContent/Article" identity="/Root/IMS/Public/Developers" allow="Save" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/ListItem/WebContent/Article" identity="/Root/IMS/Public/Administrators" allow="Save" localOnly="True" />
+
+      <!-- Action permissions for built-in groups -->
+
+      <SetPermissions path="/Root/(apps)/GenericContent/HasPermission" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/GenericContent/GetPermissions" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Developers" allow="RunApplication;Open" />
+      <SetPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Administrators" allow="RunApplication;Open" />
+
+      <!-- Set permissions on top level containers folders for built-in users -->
+
+      <SetPermissions path="/Root/IMS/Public" identity="/Root/IMS/Public/Developers" allow="AddNew" />
+      <SetPermissions path="/Root/IMS/Public" identity="/Root/IMS/Public/Administrators" allow="AddNew" />
+
+      <SetPermissions path="/Root/System/Schema/ContentTypes" identity="/Root/IMS/Public/Developers" allow="AddNew" localOnly="True" />
+      <SetPermissions path="/Root/System/Schema/ContentTypes" identity="/Root/IMS/Public/Administrators" allow="AddNew" localOnly="True" />
+
+      <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Developers" allow="AddNew" />
+      <SetPermissions path="/Root/Localization" identity="/Root/IMS/Public/Administrators" allow="AddNew" />
+
+      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Developers" allow="AddNew;Save;ManageListsAndWorkspaces;Delete;Publish;ForceCheckin;RecallOldVersion;SeePermissions;SetPermissions" />
+      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Administrators" allow="AddNew;Save;ManageListsAndWorkspaces;Delete;Publish;ForceCheckin;Approve;RecallOldVersion;SeePermissions;SetPermissions;TakeOwnership" />
+      <SetPermissions path="/Root/Content" identity="/Root/IMS/Public/Editors" allow="AddNew;Save;ManageListsAndWorkspaces;Delete;Publish" />
+      
+      <SetPermissions path="/Root/Trash" identity="/Root/IMS/Public/Developers" allow="Save" />
+      <SetPermissions path="/Root/Trash" identity="/Root/IMS/Public/Administrators" allow="Save" />
+      <SetPermissions path="/Root/Trash/(apps)/TrashBag/Restore" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+
+
+
     </Phase>
   </Steps>
 </Package>

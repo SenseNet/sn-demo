@@ -9,9 +9,6 @@
     <Email>alba@sensenet.com</Email>
 	<LoginName>alba@sensenet.com</LoginName>
     <FullName>Alba Monday</FullName>
-	<ImageRef>
-      <Path>/Root/Sites/Default_Site/demoavatars/alba.jpg</Path>
-    </ImageRef>
     <Password>
       <Text>alba</Text>
     </Password>

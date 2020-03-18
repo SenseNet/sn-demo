@@ -1,6 +1,6 @@
 <Package type='Install'>
-  <Id>SenseNet.Demo.Sales</Id>
-  <Description>sensenet Sales Demo</Description>
+  <Id>SenseNet.Demo.Test</Id>
+  <Description>sensenet Demo for testing</Description>
   <ReleaseDate>2019-11-22</ReleaseDate>
   <Version>1.0.0</Version>
   <Dependencies>
@@ -9,14 +9,6 @@
   <Parameters>
   </Parameters>
   <Steps>
-    <!-- <Phase>
-      <Copy targetDirectory='.' source='bin' /> -->
-
-    <!-- Enable this in the first phase so that it takes effect in the second: demo user profiles should be created during import. -->
-    <!-- <EditXmlNodes file="Tools\SnAdminRuntime.exe.config" xpath="/configuration/sensenet/identityManagement/add[@key='UserProfilesEnabled']/@value">
-        <Source>true</Source>
-      </EditXmlNodes>
-    </Phase> -->
 
     <Phase>
       <IfXmlNodeExists file="./web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']/section[@name='contentNaming']">
@@ -62,15 +54,13 @@
 
       <StartRepository startWorkflowEngine="false" />
 
+      <Import target="/Root" LogLevel="Verbose" source="import" />
+      
       <!-- DemoWorkspace type related settings -->
 
       <EditAllowedChildTypes path="/Root" add="DemoWorkspace" />
       <EditAllowedChildTypes path="/Root/Content" add="DemoWorkspace" />
-
-      <Import target="/Root" LogLevel="Verbose" source="import" />
-      
       <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace/DemoWorkspace" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="See" />
-
 
     </Phase>
   </Steps>
