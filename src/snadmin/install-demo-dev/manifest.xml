@@ -56,7 +56,7 @@
 
       <!-- Demo sharing -->
       
-      <SetField name="Sharing" content="/Root/Content/demoavatars/alba.jpg"><![CDATA[
+      <SetField name="Sharing" content="/Root/Content/demoavatars/devdog.jpg"><![CDATA[
         [{
             "Id": "f75b487f-fdb4-4cd0-9d20-82b0f42a9486",
             "Token": "businesscat@sensenet.com",
