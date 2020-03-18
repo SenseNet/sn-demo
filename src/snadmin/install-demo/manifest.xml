@@ -123,7 +123,6 @@
       <!-- Set Icon pathes in the Icon field. -->
       <SetField name="Icon" content="/Root/(apps)/File/Browse">download</SetField>
       <SetField name="Icon" content="/Root/(apps)/File/Preview">preview</SetField>
-      <SetField name="Icon" content="/Root/(apps)/User/Edit">settings</SetField>
       <SetField name="Icon" content="/Root/(apps)/File/WopiOpenEdit">office</SetField>
       <SetField name="Icon" content="/Root/(apps)/File/WopiOpenView">office</SetField>
 
