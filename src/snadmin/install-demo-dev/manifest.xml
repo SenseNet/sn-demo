@@ -12,31 +12,53 @@
     <Phase>
       <Copy targetDirectory='.' source='bin' />
 
-    <!-- Enable this in the first phase so that it takes effect in the second: demo user profiles should be created during import. -->
+      <!-- Enable this in the first phase so that it takes effect in the second: demo user profiles should be created during import. -->
       <!-- <EditXmlNodes file="Tools\SnAdminRuntime.exe.config" xpath="/configuration/sensenet/identityManagement/add[@key='UserProfilesEnabled']/@value">
         <Source>true</Source>
       </EditXmlNodes> -->
-    </Phase> 
+    </Phase>
 
     <Phase>
-      <AppendXmlFragment file="web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']">
-        <Source>
-          <section name="contentNaming" type="System.Configuration.NameValueSectionHandler" />
-        </Source>
-      </AppendXmlFragment>
-      <AppendXmlFragment file="web.config" xpath="/configuration/sensenet">
-        <Source>
-          <contentNaming>
-            <add key="InvalidNameCharsPattern" value="[\$&amp;\+,/:;=?&quot;&lt;&gt;\#%{}|\\^~\[\u005D'’`\*\t\r\n]"/>
-          </contentNaming>
-        </Source>
-      </AppendXmlFragment>
+      <IfXmlNodeExists file="./web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']/section[@name='contentNaming']">
+        <Then>
+          <!-- Do nothing -->
+        </Then>
+        <Else>
+          <AppendXmlFragment file="web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']">
+            <Source>
+              <section name="contentNaming" type="System.Configuration.NameValueSectionHandler" />
+            </Source>
+          </AppendXmlFragment>
+        </Else>
+      </IfXmlNodeExists>
 
-      <AppendXmlFragment file="web.config" xpath="/configuration/sensenet/identityManagement">
-        <Source>
-          <add key="DefaultDomain" value="Public"/>
-        </Source>
-      </AppendXmlFragment>
+      <IfXmlNodeExists file="./web.config" xpath="/configuration/sensenet/contentNaming/add[@key='InvalidNameCharsPattern']">
+        <Then>
+          <!-- Do nothing -->
+        </Then>
+        <Else>
+          <AppendXmlFragment file="web.config" xpath="/configuration/sensenet">
+            <Source>
+              <contentNaming>
+                <add key="InvalidNameCharsPattern" value="[\$&amp;\+,/:;=?&quot;&lt;&gt;\#%{}|\\^~\[\u005D'’`\*\t\r\n]"/>
+              </contentNaming>
+            </Source>
+          </AppendXmlFragment>
+        </Else>
+      </IfXmlNodeExists>
+
+      <IfXmlNodeExists file="./web.config" xpath="/configuration/sensenet/identityManagement/add[@key='DefaultDomain']">
+        <Then>
+          <!-- Do nothing -->
+        </Then>
+        <Else>
+          <AppendXmlFragment file="web.config" xpath="/configuration/sensenet/identityManagement">
+            <Source>
+              <add key="DefaultDomain" value="Public"/>
+            </Source>
+          </AppendXmlFragment>
+        </Else>
+      </IfXmlNodeExists>
 
       <StartRepository startWorkflowEngine="false" />
 
@@ -55,8 +77,9 @@
       <SetPermissions path="/Root/Content/IT/ImageLibrary" identity="/Root/IMS/BuiltIn/Portal/Visitor" allow="Open" />
 
       <!-- Demo sharing -->
-      
-      <SetField name="Sharing" content="/Root/Content/demoavatars/devdog.jpg"><![CDATA[
+
+      <SetField name="Sharing" content="/Root/Content/demoavatars/devdog.jpg">
+        <![CDATA[
         [{
             "Id": "f75b487f-fdb4-4cd0-9d20-82b0f42a9486",
             "Token": "businesscat@sensenet.com",
@@ -66,8 +89,10 @@
             "CreatorId": 1,
             "ShareDate": "2018-10-16T00:40:15Z"
         }]
-      ]]></SetField>
-      <SetField name="Sharing" content="/Root/Content/demoavatars/businesscat.jpeg"><![CDATA[
+      ]]>
+      </SetField>
+      <SetField name="Sharing" content="/Root/Content/demoavatars/businesscat.jpeg">
+        <![CDATA[
         [{
             "Id": "86c2d1f6-9a05-4923-bd38-9defee4b3b5f",
             "Token": "devdog@sensenet.com",
@@ -77,7 +102,8 @@
             "CreatorId": 1,
             "ShareDate": "2018-10-16T00:40:15Z"
         }]
-      ]]></SetField>
+      ]]>
+      </SetField>
 
     </Phase>
   </Steps>
