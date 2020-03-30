@@ -156,7 +156,7 @@
       <Configuration>
         <DefaultOrder>30</DefaultOrder>
         <VisibleBrowse>Hide</VisibleBrowse>
-        <VisibleEdit>Show</VisibleEdit>
+        <VisibleEdit>Hide</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
         <Compulsory>true</Compulsory>
         <ReenterTitle>$Ctd-User,Password-ReenterTitle</ReenterTitle>
@@ -169,7 +169,7 @@
         <DefaultOrder>20</DefaultOrder>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
-        <VisibleNew>Hide</VisibleNew>
+        <VisibleNew>Show</VisibleNew>
       </Configuration>
     </Field>
     <Field name="Language" type="Choice">
@@ -200,7 +200,7 @@
       <Description>$Ctd-User,Domain-Description</Description>
       <Configuration>
         <ReadOnly>true</ReadOnly>
-        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleBrowse>Hide</VisibleBrowse>
         <VisibleEdit>Hide</VisibleEdit>
         <VisibleNew>Hide</VisibleNew>
       </Configuration>
@@ -236,7 +236,7 @@
       <Description>$Ctd-User,LastSync-Description</Description>
       <Configuration>
         <DateTimeMode>DateAndTime</DateTimeMode>
-        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleBrowse>Hide</VisibleBrowse>
         <VisibleEdit>Hide</VisibleEdit>
         <VisibleNew>Hide</VisibleNew>
       </Configuration>
@@ -265,8 +265,8 @@
       </Indexing>
       <Configuration>
        <VisibleBrowse>Show</VisibleBrowse>
-        <VisibleEdit>Hide</VisibleEdit>
-        <VisibleNew>Hide</VisibleNew>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
       </Configuration>
     </Field>
     <Field name="TrashDisabled" type="Boolean">
@@ -308,8 +308,8 @@
           <Option value="Male">$Ctd-User,Gender-Male</Option>
         </Options>
         <VisibleBrowse>Show</VisibleBrowse>
-        <VisibleEdit>Hide</VisibleEdit>
-        <VisibleNew>Hide</VisibleNew>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
       </Configuration>
     </Field>
     <Field name="MaritalStatus" type="Choice">
@@ -324,8 +324,8 @@
           <Option value="Married">$Ctd-User,MaritalStatus-Married</Option>
         </Options>
         <VisibleBrowse>Show</VisibleBrowse>
-        <VisibleEdit>Hide</VisibleEdit>
-        <VisibleNew>Hide</VisibleNew>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
       </Configuration>
     </Field>
     <Field name="Education" type="LongText">

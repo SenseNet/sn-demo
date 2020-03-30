@@ -11,7 +11,7 @@
         <DefaultOrder>60</DefaultOrder>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
-        <VisibleNew>Hide</VisibleNew>
+        <VisibleNew>Show</VisibleNew>
         <Compulsory>true</Compulsory>
         <MaxLength>20</MaxLength>
         <ControlHint>sn:ShortText</ControlHint>
