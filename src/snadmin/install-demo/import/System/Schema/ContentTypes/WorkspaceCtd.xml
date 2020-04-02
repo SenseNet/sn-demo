@@ -4,11 +4,66 @@
   <Icon>Workspace</Icon>
   <AllowedChildTypes>Page,Folder,DocumentLibrary,ImageLibrary,EventList,MemoList,LinkList,TaskList,CustomList,Workspace</AllowedChildTypes>
   <Fields>
+    <Field name="Name" type="ShortText">
+      <DisplayName>$Ctd-Workspace,Name-DisplayName</DisplayName>
+      <Description>$Ctd-Workspace,Name-Description</Description>
+      <Configuration>
+        <DefaultOrder>60</DefaultOrder>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+        <Compulsory>true</Compulsory>
+        <MaxLength>20</MaxLength>
+        <ControlHint>sn:ShortText</ControlHint>
+      </Configuration>
+    </Field>
+    <Field name="AllowedChildTypes" type="AllowedChildTypes">
+      <Configuration>
+        <DefaultOrder>50</DefaultOrder>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
     <Field name="DisplayName" type="ShortText">
       <DisplayName>$Ctd-Workspace,DisplayName-DisplayName</DisplayName>
+      <Configuration>
+        <DefaultOrder>40</DefaultOrder>
+      </Configuration>
+    </Field>
+    <Field name="InheritableVersioningMode" type="InheritableVersioningMode">
+      <Description>$Ctd-Workspace,WorkspaceInheritableVersioningMode-Description</Description>
+      <Configuration>
+        <DefaultOrder>30</DefaultOrder>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="InheritableApprovingMode" type="InheritableApprovingMode">
+      <Description>$Ctd-Workspace,WorkspaceInheritableApprovingMode-Description</Description>
+      <Configuration>
+        <DefaultOrder>20</DefaultOrder>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Path" type="ShortText">
+      <DisplayName>$Ctd-Workspace,Path-DisplayName</DisplayName>
+      <Description>$Ctd-Workspace,Path-Description</Description>
+      <Configuration>
+        <DefaultOrder>11</DefaultOrder>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <AllowMultiple>false</AllowMultiple>
+        <ControlHint>sn:Path</ControlHint>
+      </Configuration>
     </Field>
     <Field name="Description" type="LongText">
       <Configuration>
+        <DefaultOrder>10</DefaultOrder>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -82,29 +137,6 @@
         <VisibleBrowse>Hide</VisibleBrowse>
         <VisibleEdit>Hide</VisibleEdit>
         <VisibleNew>Hide</VisibleNew>
-      </Configuration>
-    </Field>
-    <Field name="AllowedChildTypes" type="AllowedChildTypes">
-      <Configuration>
-        <VisibleBrowse>Hide</VisibleBrowse>
-        <VisibleEdit>Show</VisibleEdit>
-        <VisibleNew>Show</VisibleNew>
-      </Configuration>
-    </Field>
-    <Field name="InheritableVersioningMode" type="InheritableVersioningMode">
-      <Description>$Ctd-Workspace,WorkspaceInheritableVersioningMode-Description</Description>
-      <Configuration>
-        <VisibleBrowse>Hide</VisibleBrowse>
-        <VisibleEdit>Show</VisibleEdit>
-        <VisibleNew>Show</VisibleNew>
-      </Configuration>
-    </Field>
-    <Field name="InheritableApprovingMode" type="InheritableApprovingMode">
-      <Description>$Ctd-Workspace,WorkspaceInheritableApprovingMode-Description</Description>
-      <Configuration>
-        <VisibleBrowse>Hide</VisibleBrowse>
-        <VisibleEdit>Show</VisibleEdit>
-        <VisibleNew>Show</VisibleNew>
       </Configuration>
     </Field>
     <Field name="IsFollowed" type="Boolean">
