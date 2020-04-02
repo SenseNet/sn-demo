@@ -47,7 +47,7 @@
     </Field>
     <Field name="Locked" type="Boolean">
       <Configuration>
-        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleBrowse>Hide</VisibleBrowse>
         <VisibleEdit>Hide</VisibleEdit>
         <VisibleNew>Hide</VisibleNew>
       </Configuration>

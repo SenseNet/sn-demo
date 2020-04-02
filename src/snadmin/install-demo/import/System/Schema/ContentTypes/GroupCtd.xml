@@ -77,6 +77,9 @@
           <Path>/Root/IMS/Public</Path>
           <Path>/Root</Path>
         </SelectionRoot>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
       </Configuration>
     </Field>
     <Field name="Description" type="LongText">
