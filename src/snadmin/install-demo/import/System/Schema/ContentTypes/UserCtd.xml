@@ -92,6 +92,7 @@
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
+        <DefaultValue>[Script:jScript] DateTime.UtcNow; [/Script]</DefaultValue>
       </Configuration>
     </Field>
     <Field name="Manager" type="Reference">
