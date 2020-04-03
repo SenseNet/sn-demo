@@ -198,6 +198,7 @@
     <Field name="EventType" type="Choice">
       <DisplayName>$Ctd-CalendarEvent,EventType-DisplayName</DisplayName>
       <Configuration>
+      <AllowMultiple>True</AllowMultiple>
         <Options>
           <Option value="Deadline" selected="true">$Ctd-CalendarEvent,EventType-Deadline</Option>
           <Option value="Meeting">$Ctd-CalendarEvent,EventType-Meeting</Option>

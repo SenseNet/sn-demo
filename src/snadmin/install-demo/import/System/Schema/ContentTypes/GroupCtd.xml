@@ -7,7 +7,7 @@
       <DisplayName>$Ctd-Group,Name-DisplayName</DisplayName>
       <Description>$Ctd-Group,Name-Description</Description>
       <Configuration>
-        <DefaultOrder>80</DefaultOrder>
+        <FieldIndex>80</FieldIndex>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -20,7 +20,7 @@
       <DisplayName>$Ctd-Group,LastSync-DisplayName</DisplayName>
       <Description>$Ctd-Group,LastSync-Description</Description>
       <Configuration>
-        <DefaultOrder>70</DefaultOrder>
+        <FieldIndex>70</FieldIndex>
         <DateTimeMode>DateAndTime</DateTimeMode>
         <VisibleBrowse>Hide</VisibleBrowse>
         <VisibleEdit>Hide</VisibleEdit>
@@ -29,7 +29,7 @@
     </Field>
     <Field name="DisplayName" type="ShortText">
       <Configuration>
-        <DefaultOrder>60</DefaultOrder>
+        <FieldIndex>60</FieldIndex>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -37,7 +37,7 @@
     </Field>
     <Field name="Version" type="Version">
       <Configuration>
-      <DefaultOrder>50</DefaultOrder>
+      <FieldIndex>50</FieldIndex>
         <VisibleBrowse>Hide</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -47,7 +47,7 @@
       <DisplayName>$Ctd-Group,SyncGuid-DisplayName</DisplayName>
       <Description>$Ctd-Group,SyncGuid-Description</Description>
       <Configuration>
-      <DefaultOrder>40</DefaultOrder>
+      <FieldIndex>40</FieldIndex>
         <VisibleBrowse>Hide</VisibleBrowse>
         <VisibleEdit>Hide</VisibleEdit>
         <VisibleNew>Hide</VisibleNew>
@@ -57,7 +57,7 @@
       <DisplayName>$Ctd-Group,Index-DisplayName</DisplayName>
       <Description>$Ctd-Group,Index-Description</Description>
       <Configuration>
-        <DefaultOrder>30</DefaultOrder>
+        <FieldIndex>30</FieldIndex>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -67,7 +67,7 @@
       <DisplayName>$Ctd-Group,Members-DisplayName</DisplayName>
       <Description>$Ctd-Group,Members-Description</Description>
       <Configuration>
-        <DefaultOrder>20</DefaultOrder>
+        <FieldIndex>20</FieldIndex>
         <AllowMultiple>true</AllowMultiple>
         <AllowedTypes>
           <Type>User</Type>
@@ -84,7 +84,7 @@
     </Field>
     <Field name="Description" type="LongText">
       <Configuration>
-        <DefaultOrder>10</DefaultOrder>
+        <FieldIndex>10</FieldIndex>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
