@@ -12,7 +12,7 @@
       <Bind property="ImageRef" />
       <Bind property="ImageData" />
       <Configuration>
-        <DefaultOrder>150</DefaultOrder>
+        <FieldIndex>250</FieldIndex>
         <Visible>true</Visible>
         <ControlHint>sn:Image</ControlHint>
       </Configuration>
@@ -21,7 +21,7 @@
       <DisplayName>$Ctd-User,Enabled-DisplayName</DisplayName>
       <Description>$Ctd-User,Enabled-Description</Description>
       <Configuration>
-        <DefaultOrder>140</DefaultOrder>
+        <FieldIndex>240</FieldIndex>
         <VisibleBrowse>Hide</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -31,7 +31,7 @@
       <DisplayName>$Ctd-User,Name-DisplayName</DisplayName>
       <Description>$Ctd-User,Name-Description</Description>
       <Configuration>
-        <DefaultOrder>131</DefaultOrder>
+        <FieldIndex>230</FieldIndex>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Hide</VisibleEdit>
         <VisibleNew>Hide</VisibleNew>
@@ -44,7 +44,7 @@
       <DisplayName>$Ctd-User,LoginName-DisplayName</DisplayName>
       <Description>$Ctd-User,LoginName-Description</Description>
       <Configuration>
-        <DefaultOrder>130</DefaultOrder>
+        <FieldIndex>220</FieldIndex>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -56,7 +56,7 @@
       <DisplayName>$Ctd-User,JobTitle-DisplayName</DisplayName>
       <Description>$Ctd-User,JobTitle-Description</Description>
       <Configuration>
-        <DefaultOrder>120</DefaultOrder>
+        <FieldIndex>210</FieldIndex>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -66,7 +66,7 @@
       <DisplayName>$Ctd-User,FullName-DisplayName</DisplayName>
       <Description>$Ctd-User,FullName-Description</Description>
       <Configuration>
-        <DefaultOrder>110</DefaultOrder>
+        <FieldIndex>200</FieldIndex>
         <Compulsory>true</Compulsory>
         <Regex>[^&lt;]+</Regex>
       </Configuration>
@@ -78,7 +78,7 @@
         <Analyzer>Standard</Analyzer>
       </Indexing>
       <Configuration>
-        <DefaultOrder>100</DefaultOrder>
+        <FieldIndex>190</FieldIndex>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -87,7 +87,7 @@
     <Field name="BirthDate" type="DateTime">
       <DisplayName>$Ctd-User,BirthDate-DisplayName</DisplayName>
       <Configuration>
-        <DefaultOrder>90</DefaultOrder>
+        <FieldIndex>180</FieldIndex>
         <DateTimeMode>Date</DateTimeMode>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
@@ -98,7 +98,7 @@
       <DisplayName>$Ctd-User,Manager-DisplayName</DisplayName>
       <Description>$Ctd-User,Manager-Description</Description>
       <Configuration>
-       <DefaultOrder>80</DefaultOrder>
+       <FieldIndex>170</FieldIndex>
       <VisibleBrowse>Hide</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -115,7 +115,7 @@
       <DisplayName>$Ctd-User,Email-DisplayName</DisplayName>
       <Description>$Ctd-User,Email-Description</Description>
       <Configuration>
-        <DefaultOrder>70</DefaultOrder>
+        <FieldIndex>160</FieldIndex>
         <Compulsory>true</Compulsory>
         <Regex>^[a-zA-Z0-9._%+-]+@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$</Regex>
       </Configuration>
@@ -124,7 +124,7 @@
       <DisplayName>$Ctd-User,FacebookURL-DisplayName</DisplayName>
       <Description>$Ctd-User,FacebookURL-Description</Description>
       <Configuration>
-        <DefaultOrder>60</DefaultOrder>
+        <FieldIndex>150</FieldIndex>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -134,7 +134,7 @@
       <DisplayName>$Ctd-User,Phone-DisplayName</DisplayName>
       <Description>$Ctd-User,Phone-Description</Description>
       <Configuration>
-        <DefaultOrder>50</DefaultOrder>
+        <FieldIndex>140</FieldIndex>
         <Regex>(^\d*([-\s\+\(\)]\d*)*$)?</Regex>
         <Visible>true</Visible>
       </Configuration>
@@ -143,7 +143,7 @@
       <DisplayName>$Ctd-User,LinkedInURL-DisplayName</DisplayName>
       <Description>$Ctd-User,LinkedInURL-Description</Description>
       <Configuration>
-        <DefaultOrder>40</DefaultOrder>
+        <FieldIndex>130</FieldIndex>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -154,7 +154,7 @@
       <Description>$Ctd-User,Password-Description</Description>
       <Bind property="PasswordHash"></Bind>
       <Configuration>
-        <DefaultOrder>30</DefaultOrder>
+        <FieldIndex>120</FieldIndex>
         <VisibleBrowse>Hide</VisibleBrowse>
         <VisibleEdit>Hide</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -166,7 +166,7 @@
     <Field name="TwitterAccount" type="ShortText">
       <DisplayName>$Ctd-User,TwitterAccount-DisplayName</DisplayName>
       <Configuration>
-        <DefaultOrder>20</DefaultOrder>
+        <FieldIndex>110</FieldIndex>
         <VisibleBrowse>Show</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
@@ -179,7 +179,7 @@
         <VisibleBrowse>Hide</VisibleBrowse>
         <VisibleEdit>Show</VisibleEdit>
         <VisibleNew>Show</VisibleNew>
-        <DefaultOrder>10</DefaultOrder>
+        <FieldIndex>100</FieldIndex>
         <AllowMultiple>false</AllowMultiple>
         <AllowExtraValue>false</AllowExtraValue>
         <Options>
