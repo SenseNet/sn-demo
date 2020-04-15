@@ -9,49 +9,7 @@
   <Parameters>
   </Parameters>
   <Steps>
-
     <Phase>
-      <IfXmlNodeExists file="./web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']/section[@name='contentNaming']">
-        <Then>
-         <!-- Do nothing -->
-        </Then>
-        <Else>
-          <AppendXmlFragment file="web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']">
-            <Source>
-              <section name="contentNaming" type="System.Configuration.NameValueSectionHandler" />
-            </Source>
-          </AppendXmlFragment>
-        </Else>
-    </IfXmlNodeExists>
-
-    <IfXmlNodeExists file="./web.config" xpath="/configuration/sensenet/contentNaming/add[@key='InvalidNameCharsPattern']">
-        <Then>
-         <!-- Do nothing -->
-        </Then>
-        <Else>
-         <AppendXmlFragment file="web.config" xpath="/configuration/sensenet">
-            <Source>
-              <contentNaming>
-                <add key="InvalidNameCharsPattern" value="[\$&amp;\+,/:;=?&quot;&lt;&gt;\#%{}|\\^~\[\u005D'’`\*\t\r\n]"/>
-              </contentNaming>
-            </Source>
-          </AppendXmlFragment>
-        </Else>
-    </IfXmlNodeExists>
-
-    <IfXmlNodeExists file="./web.config" xpath="/configuration/sensenet/identityManagement/add[@key='DefaultDomain']">
-        <Then>
-         <!-- Do nothing -->
-        </Then>
-        <Else>
-          <AppendXmlFragment file="web.config" xpath="/configuration/sensenet/identityManagement">
-            <Source>
-              <add key="DefaultDomain" value="Public"/>
-            </Source>
-          </AppendXmlFragment> 
-        </Else>
-    </IfXmlNodeExists>   
-
       <StartRepository startWorkflowEngine="false" />
 
       <Import target="/Root" LogLevel="Verbose" source="import" />
@@ -61,7 +19,6 @@
       <EditAllowedChildTypes path="/Root" add="DemoWorkspace" />
       <EditAllowedChildTypes path="/Root/Content" add="DemoWorkspace" />
       <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace/DemoWorkspace" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="See" />
-
     </Phase>
   </Steps>
 </Package>
