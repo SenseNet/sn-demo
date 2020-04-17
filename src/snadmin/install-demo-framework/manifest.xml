@@ -61,6 +61,8 @@
       </IfXmlNodeExists>
       <!-- Allow RunApplication for Visitors and Everyone on the Login action -->
 
+      <StartRepository startWorkflowEngine="false" />
+
       <SetPermissions path="/Root/(apps)/GenericContent/Login" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
       <SetPermissions path="/Root/(apps)/GenericContent/Login" identity="/Root/IMS/BuiltIn/Portal/Visitor" allow="RunApplication" />
 

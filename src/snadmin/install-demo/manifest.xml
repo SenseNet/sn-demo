@@ -44,7 +44,6 @@
 
       <Import target="/Root" LogLevel="Verbose" source="import" />
 
-
       <SetField name="Index" content="/Root/System/Settings/Portal.settings">10</SetField>
       <SetField name="Index" content="/Root/System/Settings/OAuth.settings">20</SetField>
       <SetField name="Index" content="/Root/System/Settings/DocumentPreview.settings">30</SetField>
