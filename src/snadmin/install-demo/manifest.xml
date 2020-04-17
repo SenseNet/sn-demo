@@ -87,7 +87,7 @@
         "localhost",
         "localhost:8080",
         "*.sensenet.com",
-        "*.netlify.com"
+        "*.netlify.app"
         ]
         }
       </EditJson>
