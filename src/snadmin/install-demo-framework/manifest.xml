@@ -1,0 +1,122 @@
+<Package type='Install'>
+  <Id>SenseNet.Demo</Id>
+  <Description>sensenet Demo</Description>
+  <ReleaseDate>2017-08-01</ReleaseDate>
+  <Version>7.0.0</Version>
+  <Dependencies>
+    <Dependency id='SenseNet.Services' minVersion='7.0.0' />
+  </Dependencies>
+  <Parameters>
+  </Parameters>
+  <Steps>
+    <Phase>
+      <Copy targetDirectory='.' source='bin' />
+
+      <!-- Enable this in the first phase so that it takes effect in the second: demo user profiles should be created during import. -->
+      <EditXmlNodes file="Tools\SnAdminRuntime.exe.config" xpath="/configuration/sensenet/identityManagement/add[@key='UserProfilesEnabled']/@value">
+        <Source>true</Source>
+      </EditXmlNodes>
+    </Phase>
+
+    <Phase>
+      <IfXmlNodeExists file="./web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']/section[@name='contentNaming']">
+        <Then>
+          <!-- Do nothing -->
+        </Then>
+        <Else>
+          <AppendXmlFragment file="web.config" xpath="/configuration/configSections/sectionGroup[@name='sensenet']">
+            <Source>
+              <section name="contentNaming" type="System.Configuration.NameValueSectionHandler" />
+            </Source>
+          </AppendXmlFragment>
+        </Else>
+      </IfXmlNodeExists>
+
+      <IfXmlNodeExists file="./web.config" xpath="/configuration/sensenet/contentNaming/add[@key='InvalidNameCharsPattern']">
+        <Then>
+          <!-- Do nothing -->
+        </Then>
+        <Else>
+          <AppendXmlFragment file="web.config" xpath="/configuration/sensenet">
+            <Source>
+              <contentNaming>
+                <add key="InvalidNameCharsPattern" value="[\$&amp;\+,/:;=?&quot;&lt;&gt;\#%{}|\\^~\[\u005D'’`\*\t\r\n]"/>
+              </contentNaming>
+            </Source>
+          </AppendXmlFragment>
+        </Else>
+      </IfXmlNodeExists>
+
+      <IfXmlNodeExists file="./web.config" xpath="/configuration/sensenet/identityManagement/add[@key='DefaultDomain']">
+        <Then>
+          <!-- Do nothing -->
+        </Then>
+        <Else>
+          <AppendXmlFragment file="web.config" xpath="/configuration/sensenet/identityManagement">
+            <Source>
+              <add key="DefaultDomain" value="Public"/>
+            </Source>
+          </AppendXmlFragment>
+        </Else>
+      </IfXmlNodeExists>
+      <!-- Allow RunApplication for Visitors and Everyone on the Login action -->
+
+      <StartRepository startWorkflowEngine="false" />
+	  
+	  <Import target="/Root" LogLevel="Verbose" source="import" />
+
+      <SetPermissions path="/Root/(apps)/GenericContent/Login" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/GenericContent/Login" identity="/Root/IMS/BuiltIn/Portal/Visitor" allow="RunApplication" />
+
+      <!-- Set scenario field for context menu and batch action menu-->
+
+      <!-- This is not installed with preview by default only if I choose to install with webpages -->
+      <SetField name="Scenario" content="/Root/(apps)/File/Preview"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/WopiOpenEdit"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/File/WopiOpenView"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Approve"><![CDATA[ContextMenu]]></SetField>
+      <!-- This is only available in webpages package -->
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Browse"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckIn"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CheckOut"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/CopyTo"><![CDATA[ContextMenu,BatchActions]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Delete"><![CDATA[ContextMenu,BatchActions]]></SetField>
+      <!-- This is only available in webpages package -->
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Edit"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/ForceUndoCheckOut"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/MoveTo"><![CDATA[ContextMenu,BatchActions]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Publish"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/SetPermissions"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/UndoCheckOut"><![CDATA[ContextMenu]]></SetField>
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Share"><![CDATA[ContextMenu,BatchActions]]></SetField>
+      <!-- This is only available in webpages package -->
+      <SetField name="Scenario" content="/Root/(apps)/GenericContent/Versions"><![CDATA[ContextMenu]]></SetField>
+
+      <!-- Set Index values in the Index field on actions and settings for ordering purposes. -->
+      <SetField name="Index" content="/Root/(apps)/Folder/DeleteBatch">2</SetField>
+      <SetField name="Index" content="/Root/(apps)/Folder/CopyBatch">3</SetField>
+      <SetField name="Index" content="/Root/(apps)/Folder/MoveBatch">4</SetField>
+      <SetField name="Index" content="/Root/(apps)/GenericContent/Edit">3950</SetField>
+      <SetField name="Index" content="/Root/(apps)/File/Browse">20</SetField>
+      <SetField name="Index" content="/Root/(apps)/File/Edit">3950</SetField>
+
+      <!-- Set Icon pathes in the Icon field. -->
+      <SetField name="Icon" content="/Root/(apps)/File/Browse">download</SetField>
+      <SetField name="Icon" content="/Root/(apps)/File/Preview">preview</SetField>
+      <SetField name="Icon" content="/Root/(apps)/File/WopiOpenEdit">office</SetField>
+      <SetField name="Icon" content="/Root/(apps)/File/WopiOpenView">office</SetField>
+
+      <!-- Action permissions for built-in groups -->
+
+      <SetPermissions path="/Root/(apps)/GenericContent/HasPermission" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/GenericContent/GetPermissions" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+      <SetPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Developers" allow="RunApplication;Open" />
+      <SetPermissions path="/Root/(apps)/PortalRoot/GetVersionInfo" identity="/Root/IMS/Public/Administrators" allow="RunApplication;Open" />
+
+      <!-- Set permissions on top level containers folders for built-in users -->
+
+      <SetPermissions path="/Root/Trash/(apps)/TrashBag/Restore" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="RunApplication" />
+
+    </Phase>
+  </Steps>
+</Package>
