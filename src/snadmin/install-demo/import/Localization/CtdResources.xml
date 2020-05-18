@@ -690,6 +690,7 @@
         </data>
       </Language>
     </Languages>
+    </ResourceClass>
     <ResourceClass name="Ctd-File">
     <Languages>
       <Language cultureName="en">
