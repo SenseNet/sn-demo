@@ -6,7 +6,7 @@
         <DisplayName><![CDATA[Logout]]></DisplayName>
         <ActionTypeName><![CDATA[ClientApplication]]></ActionTypeName>
         <Icon><![CDATA[Logout]]></Icon>
-        <Scenario><![CDATA[UserMenu]]></Scenario>
+        <Scenario><![CDATA[UserActions]]></Scenario>
     </Fields>
     <Permissions>
         <Clear />
