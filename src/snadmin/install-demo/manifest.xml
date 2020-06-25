@@ -45,19 +45,7 @@
       <Import target="/Root" LogLevel="Verbose" source="import" />
 
       <SetField name="Index" content="/Root/System/Settings/Portal.settings">10</SetField>
-      <SetField name="Index" content="/Root/System/Settings/OAuth.settings">20</SetField>
       <SetField name="Index" content="/Root/System/Settings/DocumentPreview.settings">30</SetField>
-      <SetField name="Index" content="/Root/System/Settings/OfficeOnline.settings">40</SetField>
-      <SetField name="Index" content="/Root/System/Settings/Indexing.settings">50</SetField>
-      <SetField name="Index" content="/Root/System/Settings/Sharing.settings">60</SetField>
-      <SetField name="Index" content="/Root/System/Settings/Logging.settings">100</SetField>
-      <SetField name="Index" content="/Root/System/Settings/MailProcessor.settings">200</SetField>
-      <SetField name="Index" content="/Root/System/Settings/UserProfile.settings">300</SetField>
-      <SetField name="Index" content="/Root/System/Settings/TaskManagement.settings">400</SetField>
-
-      <AddMembers group="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
-        /Root/IMS/Public/alba
-      </AddMembers>
 
       <!-- Set permissions on settings -->
 
@@ -165,9 +153,7 @@
 
       <SetPermissions path="/Root/Trash" identity="/Root/IMS/Public/Developers" allow="Save" />
       <SetPermissions path="/Root/Trash" identity="/Root/IMS/Public/Administrators" allow="Save" />
-	  
-
-	  
+	
     </Phase>
   </Steps>
 </Package>
