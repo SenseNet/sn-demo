@@ -27,7 +27,7 @@
 
       <!-- Demo sharing -->
 
-      <SetField name="Sharing" content="/Root/Content/demoavatars/devdog.jpg">
+      <SetField name="Sharing" content="/Root/Content/Marketing/Calendar/Contracting">
         <![CDATA[
         [{
             "Id": "f75b487f-fdb4-4cd0-9d20-82b0f42a9486",
@@ -40,7 +40,7 @@
         }]
       ]]>
       </SetField>
-      <SetField name="Sharing" content="/Root/Content/demoavatars/businesscat.jpeg">
+      <SetField name="Sharing" content="/Root/Content/IT/Calendar/CodeReview">
         <![CDATA[
         [{
             "Id": "86c2d1f6-9a05-4923-bd38-9defee4b3b5f",
