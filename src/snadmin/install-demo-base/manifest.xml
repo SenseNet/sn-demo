@@ -28,7 +28,7 @@
 
       <Import target="/Root" LogLevel="Verbose" source="import" />
 
-      <AddMembers group="/Root/IMS/Public/Adminstrators">
+      <AddMembers group="/Root/IMS/Public/Administrators">
         /Root/IMS/Public/businesscat;
       </AddMembers>
       <AddMembers group="/Root/IMS/Public/Editors">
