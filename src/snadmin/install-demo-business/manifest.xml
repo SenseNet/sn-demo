@@ -21,7 +21,7 @@
 
       <SetPermissions path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace/DemoBusinessWorkspace" identity="/Root/IMS/BuiltIn/Portal/Everyone" allow="See" />
 
-      <EditAllowedChildTypes path="/Root/Content" add="DemoWorkspace" />
+      <EditAllowedChildTypes path="/Root/Content" add="DemoBusinessWorkspace" />
       
     </Phase>
   </Steps>
