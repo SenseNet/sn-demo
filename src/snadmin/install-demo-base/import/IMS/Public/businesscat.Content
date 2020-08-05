@@ -12,9 +12,7 @@
     <FullName>Business Cat</FullName>
     <MaritalStatus>Single</MaritalStatus>
     <Gender>Female</Gender>
-	<!-- <ImageRef>
-      <Path>/Root/Content/demoavatars/businesscat.jpeg</Path>
-    </ImageRef> -->
+    <ImageData attachment="businesscat.jpeg" />
     <Password>
       <Text>businesscat</Text>
     </Password>

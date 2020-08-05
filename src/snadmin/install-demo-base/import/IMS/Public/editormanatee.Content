@@ -13,9 +13,7 @@
     <Manager><Path>/Root/IMS/Public/businesscat</Path></Manager>
     <MaritalStatus>Married</MaritalStatus>
     <Gender>Male</Gender>
-	<!-- <ImageRef>
-      <Path>/Root/Content/demoavatars/editormanatee.jpg</Path>
-    </ImageRef> -->
+	  <ImageData attachment="editormanatee.jpg" />
     <Password>
       <Text>editormanatee</Text>
     </Password>
