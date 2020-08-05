@@ -15,9 +15,7 @@
     </Manager>
     <MaritalStatus>Single</MaritalStatus>
     <Gender>Female</Gender>
-	<!-- <ImageRef>
-      <Path>/Root/Content/demoavatars/devdog.jpg</Path>
-    </ImageRef> -->
+    <ImageData attachment="devdog.jpg" />
     <Password>
       <Text>devdog</Text>
     </Password>
