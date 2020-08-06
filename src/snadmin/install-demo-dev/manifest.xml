@@ -15,7 +15,6 @@
       <!-- DemoWorkspace type related settings -->
 
       <EditAllowedChildTypes path="/Root" add="DemoWorkspace" />
-      <EditAllowedChildTypes path="/Root/Content" add="DemoWorkspace" />
 
       <Import target="/Root" LogLevel="Verbose" source="import" />
 
