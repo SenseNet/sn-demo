@@ -54,8 +54,6 @@
       ]]>
       </SetField>
 
-      <EditAllowedChildTypes path="/Root/Content" add="DemoWorkspace" />
-
     </Phase>
   </Steps>
 </Package>
