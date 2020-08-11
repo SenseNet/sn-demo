@@ -15,7 +15,9 @@
     </Manager>
     <MaritalStatus>Single</MaritalStatus>
     <Gender>Female</Gender>
-    <ImageData attachment="devdog.jpg" />
+    <ImageRef>
+      <Path>/Root/IMS/Public/devdog/devdog.jpeg</Path>
+    </ImageRef>
     <Password>
       <Text>devdog</Text>
     </Password>
