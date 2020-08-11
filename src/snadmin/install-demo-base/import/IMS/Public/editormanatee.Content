@@ -14,7 +14,7 @@
     <MaritalStatus>Married</MaritalStatus>
     <Gender>Male</Gender>
 	  <ImageRef>
-      <Path>/Root/IMS/Public/editormanatee/editormanatee.jpeg</Path>
+      <Path>/Root/IMS/Public/editormanatee/editormanatee.jpg</Path>
     </ImageRef>
     <Password>
       <Text>editormanatee</Text>

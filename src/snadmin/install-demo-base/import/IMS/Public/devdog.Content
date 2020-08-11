@@ -16,7 +16,7 @@
     <MaritalStatus>Single</MaritalStatus>
     <Gender>Female</Gender>
     <ImageRef>
-      <Path>/Root/IMS/Public/devdog/devdog.jpeg</Path>
+      <Path>/Root/IMS/Public/devdog/devdog.jpg</Path>
     </ImageRef>
     <Password>
       <Text>devdog</Text>
