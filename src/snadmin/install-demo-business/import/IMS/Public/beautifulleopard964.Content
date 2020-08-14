@@ -11,7 +11,7 @@
     <MaritalStatus>Single</MaritalStatus>
     <Gender>Male</Gender>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/75.jpg</Path>
+      <Path>/Root/IMS/Public/beautifulleopard964/75.jpg</Path>
     </ImageRef>
     <Password>
       <Text>hello</Text>

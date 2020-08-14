@@ -11,7 +11,7 @@
     <MaritalStatus>Single</MaritalStatus>
     <Gender>Female</Gender>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/53.jpg</Path>
+      <Path>/Root/IMS/Public/bigmeercat839/53.jpg</Path>
     </ImageRef>
     <Password>
       <Text>womble</Text>

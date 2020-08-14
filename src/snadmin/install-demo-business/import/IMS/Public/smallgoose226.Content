@@ -11,7 +11,7 @@
     <MaritalStatus>Married</MaritalStatus>
     <Gender>Female</Gender>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/74w.jpg</Path>
+      <Path>/Root/IMS/Public/smallgoose226/74w.jpg</Path>
     </ImageRef>
     <Password>
       <Text>monalisa</Text>

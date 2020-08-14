@@ -11,7 +11,7 @@
     <MaritalStatus>Married</MaritalStatus>
     <Gender>Male</Gender>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/86.jpg</Path>
+      <Path>/Root/IMS/Public/saddog797/86.jpg</Path>
     </ImageRef>
     <Password>
       <Text>sailing</Text>

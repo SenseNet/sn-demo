@@ -11,7 +11,7 @@
     <MaritalStatus>Married</MaritalStatus>
     <Gender>Female</Gender>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/16.jpg</Path>
+      <Path>/Root/IMS/Public/crazylion735/16.jpg</Path>
     </ImageRef>
     <Password>
       <Text>1945</Text>

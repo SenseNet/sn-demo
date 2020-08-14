@@ -11,7 +11,7 @@
     <MaritalStatus>Married</MaritalStatus>
     <Gender>Female</Gender>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/22.jpg</Path>
+      <Path>/Root/IMS/Public/bigzebra483/22.jpg</Path>
     </ImageRef>
     <Password>
       <Text>frenchy</Text>

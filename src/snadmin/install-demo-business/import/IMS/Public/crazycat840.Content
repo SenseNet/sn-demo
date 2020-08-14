@@ -11,7 +11,7 @@
     <MaritalStatus>Married</MaritalStatus>
     <Gender>Male</Gender>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/20.jpg</Path>
+      <Path>/Root/IMS/Public/crazycat840/20.jpg</Path>
     </ImageRef>
     <Password>
       <Text>emmitt</Text>

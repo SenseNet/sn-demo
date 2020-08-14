@@ -11,7 +11,7 @@
     <MaritalStatus>Single</MaritalStatus>
     <Gender>Male</Gender>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/8.jpg</Path>
+      <Path>/Root/IMS/Public/redleopard546/8.jpg</Path>
     </ImageRef>
     <Password>
       <Text>briggs</Text>

@@ -11,7 +11,7 @@
     <MaritalStatus>Married</MaritalStatus>
     <Gender>Male</Gender>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/31.jpg</Path>
+      <Path>/Root/IMS/Public/heavymeercat467/31.jpg</Path>
     </ImageRef>
     <Password>
       <Text>closer</Text>

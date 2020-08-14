@@ -11,7 +11,7 @@
     <MaritalStatus>Married</MaritalStatus>
     <Gender>Female</Gender>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/86w.jpg</Path>
+      <Path>/Root/IMS/Public/brownswan347/86w.jpg</Path>
     </ImageRef>
     <Password>
       <Text>stinker</Text>

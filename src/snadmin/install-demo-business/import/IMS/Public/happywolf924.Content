@@ -11,7 +11,7 @@
     <MaritalStatus>Married</MaritalStatus>
     <Gender>Male</Gender>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/1.jpg</Path>
+      <Path>/Root/IMS/Public/happywolf924/1.jpg</Path>
     </ImageRef>
     <Password>
       <Text>savior</Text>

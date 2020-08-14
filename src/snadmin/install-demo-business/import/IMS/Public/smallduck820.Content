@@ -11,7 +11,7 @@
     <MaritalStatus>Married</MaritalStatus>
     <Gender>Male</Gender>
 	<ImageRef>
-      <Path>/Root/Content/demoavatars/46.jpg</Path>
+      <Path>/Root/IMS/Public/smallduck820/46.jpg</Path>
     </ImageRef>
     <Password>
       <Text>venus</Text>
