@@ -6,7 +6,6 @@
     <AllowedChildTypes>Folder, DocumentLibrary, ImageLibrary, EventList, MemoList, LinkList, TaskList, CustomList, Workspace, SystemFolder, DemoWorkspace</AllowedChildTypes>
   </Fields>
   <Permissions>
-    <Clear />
     <Break />
     <Identity path="/Root/IMS/BuiltIn/Portal/Administrators">
       <See>Allow</See>
