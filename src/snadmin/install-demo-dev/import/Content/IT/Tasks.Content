@@ -25,7 +25,7 @@
     <IsRateable>false</IsRateable>
     <RateAvg>0.0000</RateAvg>
     <RateCount>0</RateCount>
-    <InheritableVersioningMode>3</InheritableVersioningMode>
+    <InheritableVersioningMode>2</InheritableVersioningMode>
     <InheritableApprovingMode>2</InheritableApprovingMode>
   </Fields>
   <Permissions>
