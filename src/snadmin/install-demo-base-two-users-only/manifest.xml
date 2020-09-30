@@ -1,0 +1,40 @@
+<Package type='Install'>
+  <Id>SenseNet.Demo</Id>
+  <Description>sensenet Demo</Description>
+  <ReleaseDate>2017-08-01</ReleaseDate>
+  <Version>7.0.0</Version>
+  <Dependencies>
+    <Dependency id='SenseNet.Services' minVersion='7.0.0' />
+  </Dependencies>
+  <Parameters>
+  </Parameters>
+  <Steps>
+    <Phase>
+      <StartRepository startWorkflowEngine="false" />
+
+      <!-- Set allowed origins -->
+
+      <EditJson Path="/Root/System/Settings/Portal.settings">
+        {
+        "AllowedOriginDomains": [
+        "*.csb.app",
+        "localhost",
+        "localhost:8080",
+        "*.sensenet.com",
+        "*.netlify.app"
+        ]
+        }
+      </EditJson>
+
+      <Import target="/Root" LogLevel="Verbose" source="import" />
+
+      <AddMembers group="/Root/IMS/Public/Administrators">
+        /Root/IMS/Public/businesscat;
+      </AddMembers>
+      <AddMembers group="/Root/IMS/Public/Developers">
+        /Root/IMS/Public/devdog;
+      </AddMembers>
+      
+    </Phase>
+  </Steps>
+</Package>

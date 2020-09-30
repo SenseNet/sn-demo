@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>User</ContentType>
+  <ContentName>businesscat</ContentName>
+  <Fields>
+    <DisplayName>Business Cat</DisplayName>
+    <JobTitle>Boss</JobTitle>
+    <Enabled>true</Enabled>
+    <Email>businesscat@sensenet.com</Email>
+    <Department>Management</Department>
+	<LoginName>businesscat</LoginName>
+    <FullName>Business Cat</FullName>
+    <MaritalStatus>Single</MaritalStatus>
+    <Gender>Female</Gender>
+    <ImageRef>
+      <Path>/Root/IMS/Public/businesscat/businesscat.jpeg</Path>
+    </ImageRef>
+    <Password>
+      <Text>businesscat</Text>
+    </Password>
+    <Languages>Meow;english;german;hungarian</Languages>
+    <TrashDisabled>false</TrashDisabled>
+    <Phone>+36301234567</Phone>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/Public/businesscat">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>
