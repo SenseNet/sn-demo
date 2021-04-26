@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>CalendarEvent</ContentType>
-  <ContentName>MarketingStrategyMeeting</ContentName>
+  <ContentName>CruelDeadline</ContentName>
   <Fields>
-    <DisplayName>Marketing Strategy Meeting </DisplayName>
-    <Description><![CDATA[General session - Corporate Marketing, Alliances & Other Presentations]]></Description>
-    <StartDate>2019-05-10T00:00:00</StartDate>
-    <EndDate>2019-05-12T00:00:00</EndDate>
+    <DisplayName>Cruel deadline</DisplayName>
+    <StartDate>2021-06-02T10:00:00</StartDate>
+    <EndDate>2021-06-02T10:00:00</EndDate>
     <AllDay>false</AllDay>
-    <Location>Meeting room 2.</Location>
+    <EventType>Deadline</EventType>
     <RequiresRegistration>false</RequiresRegistration>
     <NotificationMode></NotificationMode>
     <MaxParticipants>0</MaxParticipants>

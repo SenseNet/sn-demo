@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>CalendarEvent</ContentType>
-  <ContentName>ScrumMeeting</ContentName>
+  <ContentName>AwesomeDemo</ContentName>
   <Fields>
-    <DisplayName>Scrum meeting</DisplayName>
-    <Description><![CDATA[Feedback on marketing topics presented at the EEB Retreat.]]></Description>
-    <StartDate>2019-05-10T00:00:00</StartDate>
-    <EndDate>2019-05-12T00:00:00</EndDate>
+    <DisplayName>Awesome demo</DisplayName>
+    <StartDate>2021-05-26T14:00:00</StartDate>
+    <EndDate>2021-05-26T15:00:00</EndDate>
     <AllDay>false</AllDay>
-    <Location>Meeting room 2.</Location>
+    <Location>meeting room - gray</Location>
+    <EventType>Demo</EventType>
     <RequiresRegistration>false</RequiresRegistration>
     <NotificationMode></NotificationMode>
-    <MaxParticipants>7</MaxParticipants>
-    <NumParticipants>7</NumParticipants>
+    <MaxParticipants>0</MaxParticipants>
+    <NumParticipants>0</NumParticipants>
     <Index>0</Index>
     <Hidden>false</Hidden>
     <EnableLifespan>false</EnableLifespan>

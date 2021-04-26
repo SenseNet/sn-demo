@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>CalendarEvent</ContentType>
-  <ContentName>MarketingVendorMeeting</ContentName>
+  <ContentName>OverratedMeeting</ContentName>
   <Fields>
-    <DisplayName>Marketing Vendor Meeting</DisplayName>
-    <Description><![CDATA[What other ideas do you have for the Market?]]></Description>
-    <StartDate>2019-02-19T10:00:00</StartDate>
-    <EndDate>2019-02-19T15:00:00</EndDate>
+    <DisplayName>Overrated meeting</DisplayName>
+    <StartDate>2021-05-31T08:00:00</StartDate>
+    <EndDate>2021-05-31T08:30:00</EndDate>
     <AllDay>false</AllDay>
-    <Location>Meeting room 1.</Location>
+    <Location>meeting room - gray</Location>
+    <EventType>Meeting</EventType>
     <RequiresRegistration>false</RequiresRegistration>
     <NotificationMode></NotificationMode>
     <MaxParticipants>0</MaxParticipants>

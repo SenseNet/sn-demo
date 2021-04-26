@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>CalendarEvent</ContentType>
-  <ContentName>ScrumMeeting</ContentName>
+  <ContentName>LongEvent</ContentName>
   <Fields>
-    <DisplayName>Scrum meeting</DisplayName>
-    <Description><![CDATA[The daily scrum meeting is not used as a problem-solving or issue resolution meeting. Issues that are raised are taken offline and usually dealt with by the relevant subgroup immediately after the meeting.]]></Description>
-    <StartDate>2019-05-10T00:00:00</StartDate>
-    <EndDate>2019-05-12T00:00:00</EndDate>
+    <DisplayName>Long event</DisplayName>
+    <StartDate>2021-05-24T11:00:00</StartDate>
+    <EndDate>2021-05-24T18:00:00</EndDate>
     <AllDay>false</AllDay>
-    <Location>Meeting room 2.</Location>
+    <Location>meeting room - blue</Location>
+    <EventType>Meeting</EventType>
     <RequiresRegistration>false</RequiresRegistration>
     <NotificationMode></NotificationMode>
-    <MaxParticipants>7</MaxParticipants>
-    <NumParticipants>7</NumParticipants>
+    <MaxParticipants>0</MaxParticipants>
+    <NumParticipants>0</NumParticipants>
     <Index>0</Index>
     <Hidden>false</Hidden>
     <EnableLifespan>false</EnableLifespan>

@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>CalendarEvent</ContentType>
-  <ContentName>SalesDemo</ContentName>
+  <ContentName>RemarkableMeeting</ContentName>
   <Fields>
-    <DisplayName>Sales Demo</DisplayName>
-    <Description><![CDATA[Demo for Thorwell Group]]></Description>
-    <StartDate>2019-05-11T12:00:00</StartDate>
-    <EndDate>2019-05-11T13:00:00</EndDate>
+    <DisplayName>Remarkable event</DisplayName>
+    <StartDate>2021-05-11T14:00:00</StartDate>
+    <EndDate>2021-05-11T15:30:00</EndDate>
     <AllDay>false</AllDay>
-    <Location>Sales room</Location>
+    <Location>meeting room - green</Location>
     <RequiresRegistration>false</RequiresRegistration>
     <NotificationMode></NotificationMode>
     <MaxParticipants>0</MaxParticipants>

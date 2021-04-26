@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>CalendarEvent</ContentType>
-  <ContentName>CodeReview</ContentName>
+  <ContentName>LongEvent</ContentName>
   <Fields>
-    <DisplayName>Code Review</DisplayName>
-    <Description><![CDATA[Change based code review]]></Description>
-    <StartDate>2019-07-02T09:00:00</StartDate>
-    <EndDate>2019-07-02T14:00:00</EndDate>
-    <AllDay>true</AllDay>
-    <Location>Team Room 1.</Location>
+    <DisplayName>Long event</DisplayName>
+    <StartDate>2021-05-24T11:00:00</StartDate>
+    <EndDate>2021-05-24T18:00:00</EndDate>
+    <AllDay>false</AllDay>
+    <Location>meeting room - blue</Location>
+    <EventType>Meeting</EventType>
     <RequiresRegistration>false</RequiresRegistration>
     <NotificationMode></NotificationMode>
     <MaxParticipants>0</MaxParticipants>

@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>CalendarEvent</ContentType>
-  <ContentName>TechCall</ContentName>
+  <ContentName>RemarkableMeeting</ContentName>
   <Fields>
-    <DisplayName>Tech Call with Thorwell Group</DisplayName>
-    <Description><![CDATA[Discuss questionable things]]></Description>
-    <StartDate>2019-06-26T08:30:00</StartDate>
-    <EndDate>2019-06-26T09:30:00</EndDate>
+    <DisplayName>Remarkable event</DisplayName>
+    <StartDate>2021-05-11T14:00:00</StartDate>
+    <EndDate>2021-05-11T15:30:00</EndDate>
     <AllDay>false</AllDay>
-    <Location>Sales room</Location>
+    <Location>meeting room - green</Location>
     <RequiresRegistration>false</RequiresRegistration>
     <NotificationMode></NotificationMode>
     <MaxParticipants>0</MaxParticipants>
