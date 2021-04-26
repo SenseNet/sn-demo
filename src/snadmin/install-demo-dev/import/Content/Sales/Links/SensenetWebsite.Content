@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>Link</ContentType>
-  <ContentName>OrbitMedia</ContentName>
+  <ContentName>SensenetWebsite</ContentName>
   <Fields>
-    <DisplayName>Orbit Media</DisplayName>
-    <Url>https://www.orbitmedia.com/blog/</Url>
+    <DisplayName>sensenet website</DisplayName>
+    <Url>https://sensenet.com</Url>
     <Description><![CDATA[]]></Description>
     <Index>0</Index>
     <Hidden>false</Hidden>

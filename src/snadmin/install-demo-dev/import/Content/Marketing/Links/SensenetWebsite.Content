@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>Link</ContentType>
-  <ContentName>HubFizz</ContentName>
+  <ContentName>SensenetWebsite</ContentName>
   <Fields>
-    <DisplayName>HubFizz</DisplayName>
-    <Url>https://hubfizz.uk/</Url>
+    <DisplayName>sensenet website</DisplayName>
+    <Url>https://sensenet.com</Url>
     <Description><![CDATA[]]></Description>
     <Index>0</Index>
     <Hidden>false</Hidden>

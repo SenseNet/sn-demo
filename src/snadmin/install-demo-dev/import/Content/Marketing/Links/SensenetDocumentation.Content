@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>Link</ContentType>
-  <ContentName>Leanplum</ContentName>
+  <ContentName>SensenetDocumentation</ContentName>
   <Fields>
-    <DisplayName>Leanplum</DisplayName>
-    <Url>https://www.leanplum.com/blog/</Url>
+    <DisplayName>sensenet documentation</DisplayName>
+    <Url>https://docs.sensenet.com</Url>
     <Description><![CDATA[]]></Description>
     <Index>0</Index>
     <Hidden>false</Hidden>

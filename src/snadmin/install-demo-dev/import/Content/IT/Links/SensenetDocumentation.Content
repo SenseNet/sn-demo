@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>Link</ContentType>
-  <ContentName>installsensenet</ContentName>
+  <ContentName>SensenetDocumentation</ContentName>
   <Fields>
-    <DisplayName>Install sensenet</DisplayName>
-    <Url>https://community.sensenet.com/docs/install-sn-from-nuget/</Url>
+    <DisplayName>sensenet documentation</DisplayName>
+    <Url>https://docs.sensenet.com</Url>
     <Description><![CDATA[]]></Description>
     <Index>0</Index>
     <Hidden>false</Hidden>

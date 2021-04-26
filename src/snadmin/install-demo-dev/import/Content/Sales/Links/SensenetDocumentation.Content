@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>Link</ContentType>
-  <ContentName>HubSpot</ContentName>
+  <ContentName>SensenetDocumentation</ContentName>
   <Fields>
-    <DisplayName>HubSpot</DisplayName>
-    <Url>https://blog.hubspot.com/marketing</Url>
+    <DisplayName>sensenet documentation</DisplayName>
+    <Url>https://docs.sensenet.com</Url>
     <Description><![CDATA[]]></Description>
     <Index>0</Index>
     <Hidden>false</Hidden>
