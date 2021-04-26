@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentMetaData>
   <ContentType>Task</ContentType>
-  <ContentName>Blog</ContentName>
+  <ContentName>Disappear</ContentName>
   <Fields>
     <StartDate>0001-01-01T00:00:00</StartDate>
-    <DueDate>2015-09-20T00:00:00</DueDate>
+    <DueDate>2021-04-19T11:28:00</DueDate>
     <AssignedTo />
     <Priority>1</Priority>
     <Status>active</Status>
     <TaskCompletion>0</TaskCompletion>
-    <Description><![CDATA[Find contributors for your blog, or even write posts if you are finding yourself short on time or really don’t like writing]]></Description>
     <ModifiedBy>
       <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
     </ModifiedBy>
@@ -17,7 +16,7 @@
     <Owner>
       <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
     </Owner>
-    <DisplayName><![CDATA[Blog]]></DisplayName>
+    <DisplayName><![CDATA[Disappear]]></DisplayName>
     <Hidden>false</Hidden>
     <Index>0</Index>
     <EnableLifespan>false</EnableLifespan>
